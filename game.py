@@ -24,7 +24,8 @@ class GameClock:
 
 class Game:
     def __init__(self, inputs):
-        self.youtube_link = inputs[0]
+        # self.youtube_link = inputs[0]
+        self.youtube_link = "https://youtu.be/60N0x6dgFxs"
 
         self.date = Date(inputs[1], inputs[2], inputs[3])
 
