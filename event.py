@@ -179,7 +179,7 @@ class GameTime:
         self.time_left = time_left
 
     def __str__(self):
-        return "Quarter: " + str(self.quarter) + ", Time Remaining: " + self.time_left
+        return "Quarter: " + str(self.quarter) + ", Time Remaining: " + str(self.time_left)
 
 
 class Score:

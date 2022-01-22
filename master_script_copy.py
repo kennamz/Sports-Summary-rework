@@ -14,8 +14,7 @@ import os  # for saving all files to the right place
 
 import tensorflow as tf  # for classifying the camera angle
 
-saved_model_path = "./model_final"
-model = tf.keras.models.load_model(saved_model_path)
+
 
 
 ##########################################################

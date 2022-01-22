@@ -1,7 +1,6 @@
 import datetime
 import os
-import pandas as pd
-# from basketball_reference_web_scraper.data import Team, client, OutputType
+
 from event import *
 from scrape import Scraper
 
@@ -27,10 +26,12 @@ class Game:
         # self.youtube_link = inputs[0]
         self.youtube_link = "https://youtu.be/60N0x6dgFxs"
 
-        self.date = Date(inputs[1], inputs[2], inputs[3])
+        self.inputs = inputs
 
-        home_team_str = inputs[4]
-        away_team_str = inputs[5]
+        self.date = Date(self.inputs[1], int(self.inputs[2]), int(self.inputs[3]))
+
+        home_team_str = self.inputs[4]
+        away_team_str = self.inputs[5]
         self.home_team = TEAM_NAME_TO_TEAM[home_team_str.upper()]
         self.away_team = TEAM_NAME_TO_TEAM[away_team_str.upper()]
 
@@ -38,7 +39,7 @@ class Game:
                                       self.date.month_of_game + "_" + str(self.date.day_of_game) + "_" +
                                       home_team_str + "_" + away_team_str)
 
-        self.clock = GameClock(inputs[6], inputs[7], inputs[8], inputs[9])
+        self.clock = GameClock(self.inputs[6], self.inputs[7], self.inputs[8], self.inputs[9])
 
         self.events = None
 
