@@ -3,6 +3,7 @@ import re
 from bs4 import BeautifulSoup
 
 from event import *
+from teams import TEAM_TO_TEAM_ABBREVIATIONS
 
 
 class Scraper:

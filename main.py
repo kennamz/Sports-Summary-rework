@@ -4,6 +4,7 @@ import numpy
 
 from game import *
 from screen import *
+from summarizer import Summarizer
 from video import *
 
 import pandas as pd
@@ -20,30 +21,47 @@ def read_inputs():
 
 
 if __name__ == '__main__':
-    create_new_game = False
+    create_new_game = True
+    file_name = "game.json"
 
     if create_new_game:
+        print("Creating new game")
+
         game = read_inputs()
         game.process_events()
 
         json_out = jsons.dump(game)
         json_object = json.dumps(json_out, indent=2)
-        with open('game.json', 'w') as f:
+        with open(file_name, 'w') as f:
             print(json_object, file=f)
 
             f.close()
     else:
-        with open('game.json', 'r') as f:
+        print("Reading game from", file_name)
+
+        with open(file_name, 'r') as f:
             json_object = json.load(f)
             game = jsons.load(json_object, Game)
 
             f.close()
 
-    print(type(game.inputs), type(game.date), type(game.home_team), type(game.clock), type(game.events))
-    for event in game.events:
-        print(type(event))
-    video = VideoProcessing(game)
-    video.process_video()
+    # print(type(game.inputs), type(game.date), type(game.home_team), type(game.clock), type(game.events))
+    # for event in game.events:
+    #     print(type(event))
+
+    process_new_video = False
+    file_name = "video.data"
+
+    if process_new_video:
+        video = VideoProcessing(game)
+        video.process_video()
+    else:
+        video = VideoProcessing(file_name)
+
+    print("------ summarizing ------")
+
+    summarizer = Summarizer(game, video)
+    summarizer.create_summary()
 
     root = tk.Tk()
     player = Screen(root)
