@@ -3,6 +3,7 @@ import re
 from bs4 import BeautifulSoup
 
 from event import *
+from gametime import GameTime
 from teams import TEAM_TO_TEAM_ABBREVIATIONS
 
 
@@ -62,7 +63,7 @@ class Scraper:
 
         self.scrape_pbp()
         self.scrape_shot_positions()
-        print("finished scrape_all()")
+        print("Finished scraping game events")
         return self.events
 
         # for index in range(len(testing_pbp_urls)):

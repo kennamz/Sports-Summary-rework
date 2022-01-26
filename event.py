@@ -59,21 +59,6 @@ class Position:
         return "Top: " + self.top + ", Left: " + self.left
 
 
-class GameTime:
-    def __init__(self, quarter, time_left):
-        if quarter is None or time_left is None:
-            print("None input in GameTime")
-
-        self.quarter = quarter
-
-        if ".0" in time_left:
-            time_left = time_left[:-2]
-        self.time_left = time_left
-
-    def __str__(self):
-        return "Quarter: " + str(self.quarter) + ", Time Remaining: " + str(self.time_left)
-
-
 class Score:
     def __init__(self, home_score, away_score):
         self.home_score = home_score

@@ -8,6 +8,7 @@ from pytesseract import pytesseract
 
 import event
 from game import Game
+from gametime import GameTime
 
 
 class CameraAngle(Enum):
@@ -70,6 +71,10 @@ class VideoProcessing:
                 if game_time is not None:
                     angle = self.determine_angle(frame)
                     timestamp = capture.get(cv2.CAP_PROP_POS_MSEC)
+
+                    if timestamp == 0:
+                        print("timestamp is 0")
+                        continue
 
                     frame_data = Frame(angle, timestamp, game_time)
                     self.frames.append(frame_data)
@@ -138,7 +143,7 @@ def read_from_csv(file_name):
             angle = ANGLE_STR_TO_ANGLE[row[0]]
             timestamp = float(row[1])
             quarter = event.QTR_STR_TO_QTR[row[2]]
-            time = event.GameTime(quarter, row[3])
+            time = GameTime(quarter, row[3])
 
             frame = Frame(angle, timestamp, time)
             frames.append(frame)

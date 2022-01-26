@@ -58,12 +58,12 @@ if __name__ == '__main__':
     else:
         video = VideoProcessing(file_name)
 
-    print("------ summarizing ------")
+    print("Beginning summarization")
 
     summarizer = Summarizer(game, video)
     summarizer.create_summary()
 
-    root = tk.Tk()
-    player = Screen(root)
-
-    root.mainloop()  # to keep the GUI open
+    # root = tk.Tk()
+    # player = Screen(root)
+    #
+    # root.mainloop()  # to keep the GUI open

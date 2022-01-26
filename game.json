@@ -20,7 +20,7 @@
       "score": null,
       "time": {
         "quarter": "FIRST",
-        "time_left": "12:00"
+        "time_left": 720.0
       }
     },
     {
@@ -41,7 +41,7 @@
       "score": null,
       "time": {
         "quarter": "FIRST",
-        "time_left": "12:00"
+        "time_left": 720.0
       }
     },
     {
@@ -69,7 +69,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "11:38"
+        "time_left": 698.0
       }
     },
     {
@@ -84,7 +84,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "11:37"
+        "time_left": 697.0
       }
     },
     {
@@ -109,7 +109,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "11:33"
+        "time_left": 693.0
       }
     },
     {
@@ -124,7 +124,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "11:33"
+        "time_left": 693.0
       }
     },
     {
@@ -146,7 +146,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "11:33"
+        "time_left": 693.0
       }
     },
     {
@@ -171,7 +171,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "11:23"
+        "time_left": 683.0
       }
     },
     {
@@ -189,7 +189,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "11:22"
+        "time_left": 682.0
       }
     },
     {
@@ -217,7 +217,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "11:07"
+        "time_left": 667.0
       }
     },
     {
@@ -235,7 +235,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "11:06"
+        "time_left": 666.0
       }
     },
     {
@@ -263,7 +263,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "11:02"
+        "time_left": 662.0
       }
     },
     {
@@ -291,7 +291,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "10:44"
+        "time_left": 644.0
       }
     },
     {
@@ -316,7 +316,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "10:20"
+        "time_left": 620.0
       }
     },
     {
@@ -334,7 +334,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "10:19"
+        "time_left": 619.0
       }
     },
     {
@@ -359,7 +359,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "10:11"
+        "time_left": 611.0
       }
     },
     {
@@ -381,7 +381,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "9:55"
+        "time_left": 595.0
       }
     },
     {
@@ -406,7 +406,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "9:50"
+        "time_left": 590.0
       }
     },
     {
@@ -424,7 +424,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "9:48"
+        "time_left": 588.0
       }
     },
     {
@@ -449,7 +449,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "9:44"
+        "time_left": 584.0
       }
     },
     {
@@ -467,7 +467,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "9:43"
+        "time_left": 583.0
       }
     },
     {
@@ -492,7 +492,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "9:39"
+        "time_left": 579.0
       }
     },
     {
@@ -520,7 +520,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "9:15"
+        "time_left": 555.0
       }
     },
     {
@@ -545,7 +545,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "9:09"
+        "time_left": 549.0
       }
     },
     {
@@ -563,7 +563,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "9:08"
+        "time_left": 548.0
       }
     },
     {
@@ -588,7 +588,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "8:48"
+        "time_left": 528.0
       }
     },
     {
@@ -606,7 +606,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "8:47"
+        "time_left": 527.0
       }
     },
     {
@@ -631,7 +631,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "8:30"
+        "time_left": 510.0
       }
     },
     {
@@ -649,7 +649,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "8:29"
+        "time_left": 509.0
       }
     },
     {
@@ -674,7 +674,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "8:16"
+        "time_left": 496.0
       }
     },
     {
@@ -692,7 +692,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "8:15"
+        "time_left": 495.0
       }
     },
     {
@@ -710,7 +710,7 @@
       "steal_by": null,
       "time": {
         "quarter": "FIRST",
-        "time_left": "7:55"
+        "time_left": 475.0
       },
       "turnover_type": "BAD_PASS"
     },
@@ -739,7 +739,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "7:45"
+        "time_left": 465.0
       }
     },
     {
@@ -760,7 +760,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "7:21"
+        "time_left": 441.0
       },
       "turnover_type": "BAD_PASS"
     },
@@ -779,7 +779,7 @@
       "steal_by": null,
       "time": {
         "quarter": "FIRST",
-        "time_left": "7:09"
+        "time_left": 429.0
       },
       "turnover_type": "BAD_PASS"
     },
@@ -801,7 +801,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "7:09"
+        "time_left": 429.0
       }
     },
     {
@@ -826,7 +826,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "6:53"
+        "time_left": 413.0
       }
     },
     {
@@ -844,7 +844,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "6:52"
+        "time_left": 412.0
       }
     },
     {
@@ -869,7 +869,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "6:39"
+        "time_left": 399.0
       }
     },
     {
@@ -887,7 +887,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "6:38"
+        "time_left": 398.0
       }
     },
     {
@@ -912,7 +912,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "6:33"
+        "time_left": 393.0
       }
     },
     {
@@ -930,7 +930,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "6:32"
+        "time_left": 392.0
       }
     },
     {
@@ -955,7 +955,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "6:19"
+        "time_left": 379.0
       }
     },
     {
@@ -970,7 +970,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "6:18"
+        "time_left": 378.0
       }
     },
     {
@@ -991,7 +991,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "6:18"
+        "time_left": 378.0
       }
     },
     {
@@ -1016,7 +1016,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "6:14"
+        "time_left": 374.0
       }
     },
     {
@@ -1034,7 +1034,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "6:13"
+        "time_left": 373.0
       }
     },
     {
@@ -1062,7 +1062,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "5:58"
+        "time_left": 358.0
       }
     },
     {
@@ -1075,7 +1075,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "5:52"
+        "time_left": 352.0
       },
       "timeout_type": "FULL"
     },
@@ -1098,7 +1098,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "5:47"
+        "time_left": 347.0
       }
     },
     {
@@ -1123,7 +1123,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "5:33"
+        "time_left": 333.0
       }
     },
     {
@@ -1141,7 +1141,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "5:32"
+        "time_left": 332.0
       }
     },
     {
@@ -1166,7 +1166,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "5:23"
+        "time_left": 323.0
       }
     },
     {
@@ -1184,7 +1184,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "5:22"
+        "time_left": 322.0
       }
     },
     {
@@ -1209,7 +1209,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "5:19"
+        "time_left": 319.0
       }
     },
     {
@@ -1227,7 +1227,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "5:18"
+        "time_left": 318.0
       }
     },
     {
@@ -1252,7 +1252,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "5:17"
+        "time_left": 317.0
       }
     },
     {
@@ -1277,7 +1277,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "4:55"
+        "time_left": 295.0
       }
     },
     {
@@ -1295,7 +1295,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "4:54"
+        "time_left": 294.0
       }
     },
     {
@@ -1320,7 +1320,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "4:52"
+        "time_left": 292.0
       }
     },
     {
@@ -1335,7 +1335,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "4:51"
+        "time_left": 291.0
       }
     },
     {
@@ -1357,7 +1357,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "4:51"
+        "time_left": 291.0
       }
     },
     {
@@ -1379,7 +1379,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "4:44"
+        "time_left": 284.0
       }
     },
     {
@@ -1398,7 +1398,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "FIRST",
-        "time_left": "4:44"
+        "time_left": 284.0
       },
       "total_num_shots": "2"
     },
@@ -1418,7 +1418,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "FIRST",
-        "time_left": "4:44"
+        "time_left": 284.0
       },
       "total_num_shots": "2"
     },
@@ -1444,7 +1444,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "4:31"
+        "time_left": 271.0
       }
     },
     {
@@ -1466,7 +1466,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "4:13"
+        "time_left": 253.0
       }
     },
     {
@@ -1485,7 +1485,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "FIRST",
-        "time_left": "4:13"
+        "time_left": 253.0
       },
       "total_num_shots": "2"
     },
@@ -1507,7 +1507,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "4:13"
+        "time_left": 253.0
       }
     },
     {
@@ -1526,7 +1526,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "FIRST",
-        "time_left": "4:13"
+        "time_left": 253.0
       },
       "total_num_shots": "2"
     },
@@ -1552,7 +1552,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "4:01"
+        "time_left": 241.0
       }
     },
     {
@@ -1577,7 +1577,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "3:43"
+        "time_left": 223.0
       }
     },
     {
@@ -1595,7 +1595,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "3:42"
+        "time_left": 222.0
       }
     },
     {
@@ -1623,7 +1623,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "3:36"
+        "time_left": 216.0
       }
     },
     {
@@ -1645,7 +1645,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "3:16"
+        "time_left": 196.0
       }
     },
     {
@@ -1664,7 +1664,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "FIRST",
-        "time_left": "3:16"
+        "time_left": 196.0
       },
       "total_num_shots": "2"
     },
@@ -1680,7 +1680,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "3:16"
+        "time_left": 196.0
       }
     },
     {
@@ -1701,7 +1701,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "3:16"
+        "time_left": 196.0
       }
     },
     {
@@ -1720,7 +1720,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "FIRST",
-        "time_left": "3:16"
+        "time_left": 196.0
       },
       "total_num_shots": "2"
     },
@@ -1739,7 +1739,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "3:15"
+        "time_left": 195.0
       }
     },
     {
@@ -1767,7 +1767,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "3:01"
+        "time_left": 181.0
       }
     },
     {
@@ -1792,7 +1792,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "2:34"
+        "time_left": 154.0
       }
     },
     {
@@ -1817,7 +1817,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "2:15"
+        "time_left": 135.0
       }
     },
     {
@@ -1842,7 +1842,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "1:57"
+        "time_left": 117.0
       }
     },
     {
@@ -1864,7 +1864,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "1:42"
+        "time_left": 102.0
       }
     },
     {
@@ -1877,7 +1877,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "1:42"
+        "time_left": 102.0
       },
       "timeout_type": "FULL"
     },
@@ -1899,7 +1899,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "1:42"
+        "time_left": 102.0
       }
     },
     {
@@ -1920,7 +1920,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "1:42"
+        "time_left": 102.0
       }
     },
     {
@@ -1941,7 +1941,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "1:42"
+        "time_left": 102.0
       }
     },
     {
@@ -1960,7 +1960,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "FIRST",
-        "time_left": "1:42"
+        "time_left": 102.0
       },
       "total_num_shots": "2"
     },
@@ -1976,7 +1976,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "1:42"
+        "time_left": 102.0
       }
     },
     {
@@ -1995,7 +1995,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "FIRST",
-        "time_left": "1:42"
+        "time_left": 102.0
       },
       "total_num_shots": "2"
     },
@@ -2024,7 +2024,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "1:29"
+        "time_left": 89.0
       }
     },
     {
@@ -2046,7 +2046,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "1:09"
+        "time_left": 69.0
       }
     },
     {
@@ -2065,7 +2065,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "FIRST",
-        "time_left": "1:09"
+        "time_left": 69.0
       },
       "total_num_shots": "2"
     },
@@ -2087,7 +2087,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "1:09"
+        "time_left": 69.0
       }
     },
     {
@@ -2106,7 +2106,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "FIRST",
-        "time_left": "1:09"
+        "time_left": 69.0
       },
       "total_num_shots": "2"
     },
@@ -2132,7 +2132,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "0:53.9"
+        "time_left": 53.9
       }
     },
     {
@@ -2150,7 +2150,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "0:52.9"
+        "time_left": 52.9
       }
     },
     {
@@ -2172,7 +2172,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "0:44.3"
+        "time_left": 44.3
       }
     },
     {
@@ -2191,7 +2191,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "FIRST",
-        "time_left": "0:44.3"
+        "time_left": 44.3
       },
       "total_num_shots": "2"
     },
@@ -2207,7 +2207,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "0:44.3"
+        "time_left": 44.3
       }
     },
     {
@@ -2226,7 +2226,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "FIRST",
-        "time_left": "0:44.3"
+        "time_left": 44.3
       },
       "total_num_shots": "2"
     },
@@ -2252,7 +2252,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "0:21.9"
+        "time_left": 21.9
       }
     },
     {
@@ -2270,7 +2270,7 @@
       },
       "time": {
         "quarter": "FIRST",
-        "time_left": "0:20.9"
+        "time_left": 20.9
       }
     },
     {
@@ -2280,7 +2280,7 @@
       "score": null,
       "time": {
         "quarter": "FIRST",
-        "time_left": "0:00"
+        "time_left": 0.0
       }
     },
     {
@@ -2290,7 +2290,7 @@
       "score": null,
       "time": {
         "quarter": "SECOND",
-        "time_left": "12:00"
+        "time_left": 720.0
       }
     },
     {
@@ -2318,7 +2318,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "11:45"
+        "time_left": 705.0
       }
     },
     {
@@ -2343,7 +2343,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "11:25"
+        "time_left": 685.0
       }
     },
     {
@@ -2361,7 +2361,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "11:23"
+        "time_left": 683.0
       }
     },
     {
@@ -2383,7 +2383,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "11:21"
+        "time_left": 681.0
       }
     },
     {
@@ -2404,7 +2404,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "11:08"
+        "time_left": 668.0
       },
       "turnover_type": "BAD_PASS"
     },
@@ -2430,7 +2430,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "11:02"
+        "time_left": 662.0
       }
     },
     {
@@ -2452,7 +2452,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "10:54"
+        "time_left": 654.0
       }
     },
     {
@@ -2477,7 +2477,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "10:44"
+        "time_left": 644.0
       }
     },
     {
@@ -2495,7 +2495,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "10:43"
+        "time_left": 643.0
       }
     },
     {
@@ -2517,7 +2517,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "10:32"
+        "time_left": 632.0
       }
     },
     {
@@ -2536,7 +2536,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "SECOND",
-        "time_left": "10:32"
+        "time_left": 632.0
       },
       "total_num_shots": "2"
     },
@@ -2556,7 +2556,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "SECOND",
-        "time_left": "10:32"
+        "time_left": 632.0
       },
       "total_num_shots": "2"
     },
@@ -2570,7 +2570,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "10:27"
+        "time_left": 627.0
       },
       "timeout_type": "FULL"
     },
@@ -2592,7 +2592,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "10:27"
+        "time_left": 627.0
       }
     },
     {
@@ -2613,7 +2613,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "10:27"
+        "time_left": 627.0
       }
     },
     {
@@ -2641,7 +2641,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "10:16"
+        "time_left": 616.0
       }
     },
     {
@@ -2666,7 +2666,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "9:52"
+        "time_left": 592.0
       }
     },
     {
@@ -2688,7 +2688,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "9:43"
+        "time_left": 583.0
       }
     },
     {
@@ -2709,7 +2709,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "9:43"
+        "time_left": 583.0
       }
     },
     {
@@ -2726,7 +2726,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "9:38"
+        "time_left": 578.0
       },
       "violation_type": "KICKED_BALL"
     },
@@ -2752,7 +2752,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "9:29"
+        "time_left": 569.0
       }
     },
     {
@@ -2770,7 +2770,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "9:28"
+        "time_left": 568.0
       }
     },
     {
@@ -2795,7 +2795,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "9:08"
+        "time_left": 548.0
       }
     },
     {
@@ -2813,7 +2813,7 @@
       "steal_by": null,
       "time": {
         "quarter": "SECOND",
-        "time_left": "8:50"
+        "time_left": 530.0
       },
       "turnover_type": "BAD_PASS"
     },
@@ -2839,7 +2839,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "8:33"
+        "time_left": 513.0
       }
     },
     {
@@ -2867,7 +2867,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "8:10"
+        "time_left": 490.0
       }
     },
     {
@@ -2886,7 +2886,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "8:07"
+        "time_left": 487.0
       }
     },
     {
@@ -2905,7 +2905,7 @@
       "shot_number": null,
       "time": {
         "quarter": "SECOND",
-        "time_left": "8:07"
+        "time_left": 487.0
       },
       "total_num_shots": null
     },
@@ -2934,7 +2934,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "7:57"
+        "time_left": 477.0
       }
     },
     {
@@ -2959,7 +2959,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "7:34"
+        "time_left": 454.0
       }
     },
     {
@@ -2977,7 +2977,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "7:33"
+        "time_left": 453.0
       }
     },
     {
@@ -3002,7 +3002,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "7:32"
+        "time_left": 452.0
       }
     },
     {
@@ -3027,7 +3027,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "7:24"
+        "time_left": 444.0
       }
     },
     {
@@ -3045,7 +3045,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "7:23"
+        "time_left": 443.0
       }
     },
     {
@@ -3070,7 +3070,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "6:59"
+        "time_left": 419.0
       }
     },
     {
@@ -3088,7 +3088,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "6:57"
+        "time_left": 417.0
       }
     },
     {
@@ -3113,7 +3113,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "6:55"
+        "time_left": 415.0
       }
     },
     {
@@ -3131,7 +3131,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "6:54"
+        "time_left": 414.0
       }
     },
     {
@@ -3156,7 +3156,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "6:53"
+        "time_left": 413.0
       }
     },
     {
@@ -3169,7 +3169,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "6:42"
+        "time_left": 402.0
       },
       "timeout_type": "FULL"
     },
@@ -3191,7 +3191,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "6:42"
+        "time_left": 402.0
       }
     },
     {
@@ -3212,7 +3212,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "6:42"
+        "time_left": 402.0
       }
     },
     {
@@ -3237,7 +3237,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "6:34"
+        "time_left": 394.0
       }
     },
     {
@@ -3252,7 +3252,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "6:33"
+        "time_left": 393.0
       }
     },
     {
@@ -3273,7 +3273,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "6:17"
+        "time_left": 377.0
       },
       "turnover_type": "BAD_PASS"
     },
@@ -3299,7 +3299,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "6:09"
+        "time_left": 369.0
       }
     },
     {
@@ -3321,7 +3321,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "5:55"
+        "time_left": 355.0
       }
     },
     {
@@ -3340,7 +3340,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "SECOND",
-        "time_left": "5:55"
+        "time_left": 355.0
       },
       "total_num_shots": "2"
     },
@@ -3362,7 +3362,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "5:55"
+        "time_left": 355.0
       }
     },
     {
@@ -3383,7 +3383,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "5:55"
+        "time_left": 355.0
       }
     },
     {
@@ -3402,7 +3402,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "SECOND",
-        "time_left": "5:55"
+        "time_left": 355.0
       },
       "total_num_shots": "2"
     },
@@ -3431,7 +3431,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "5:40"
+        "time_left": 340.0
       }
     },
     {
@@ -3456,7 +3456,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "5:23"
+        "time_left": 323.0
       }
     },
     {
@@ -3474,7 +3474,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "5:22"
+        "time_left": 322.0
       }
     },
     {
@@ -3499,7 +3499,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "5:16"
+        "time_left": 316.0
       }
     },
     {
@@ -3517,7 +3517,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "5:15"
+        "time_left": 315.0
       }
     },
     {
@@ -3545,7 +3545,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "5:07"
+        "time_left": 307.0
       }
     },
     {
@@ -3567,7 +3567,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "4:43"
+        "time_left": 283.0
       }
     },
     {
@@ -3586,7 +3586,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "SECOND",
-        "time_left": "4:43"
+        "time_left": 283.0
       },
       "total_num_shots": "2"
     },
@@ -3606,7 +3606,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "SECOND",
-        "time_left": "4:43"
+        "time_left": 283.0
       },
       "total_num_shots": "2"
     },
@@ -3632,7 +3632,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "4:30"
+        "time_left": 270.0
       }
     },
     {
@@ -3650,7 +3650,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "4:29"
+        "time_left": 269.0
       }
     },
     {
@@ -3672,7 +3672,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "4:16"
+        "time_left": 256.0
       }
     },
     {
@@ -3693,7 +3693,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "4:05"
+        "time_left": 245.0
       }
     },
     {
@@ -3714,7 +3714,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "4:05"
+        "time_left": 245.0
       }
     },
     {
@@ -3742,7 +3742,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "4:00"
+        "time_left": 240.0
       }
     },
     {
@@ -3767,7 +3767,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "3:40"
+        "time_left": 220.0
       }
     },
     {
@@ -3785,7 +3785,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "3:39"
+        "time_left": 219.0
       }
     },
     {
@@ -3813,7 +3813,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "3:34"
+        "time_left": 214.0
       }
     },
     {
@@ -3834,7 +3834,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "3:15"
+        "time_left": 195.0
       },
       "turnover_type": "LOST_BALL"
     },
@@ -3857,7 +3857,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "3:14"
+        "time_left": 194.0
       }
     },
     {
@@ -3876,7 +3876,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "SECOND",
-        "time_left": "3:14"
+        "time_left": 194.0
       },
       "total_num_shots": "2"
     },
@@ -3896,7 +3896,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "SECOND",
-        "time_left": "3:14"
+        "time_left": 194.0
       },
       "total_num_shots": "2"
     },
@@ -3915,7 +3915,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "3:13"
+        "time_left": 193.0
       }
     },
     {
@@ -3940,7 +3940,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "2:56"
+        "time_left": 176.0
       }
     },
     {
@@ -3958,7 +3958,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "2:55"
+        "time_left": 175.0
       }
     },
     {
@@ -3983,7 +3983,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "2:47"
+        "time_left": 167.0
       }
     },
     {
@@ -4001,7 +4001,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "2:46"
+        "time_left": 166.0
       }
     },
     {
@@ -4023,7 +4023,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "2:40"
+        "time_left": 160.0
       }
     },
     {
@@ -4036,7 +4036,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "2:40"
+        "time_left": 160.0
       },
       "timeout_type": "OFFICIAL"
     },
@@ -4058,7 +4058,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "2:40"
+        "time_left": 160.0
       }
     },
     {
@@ -4079,7 +4079,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "2:40"
+        "time_left": 160.0
       }
     },
     {
@@ -4098,7 +4098,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "SECOND",
-        "time_left": "2:40"
+        "time_left": 160.0
       },
       "total_num_shots": "2"
     },
@@ -4118,7 +4118,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "SECOND",
-        "time_left": "2:40"
+        "time_left": 160.0
       },
       "total_num_shots": "2"
     },
@@ -4144,7 +4144,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "2:25"
+        "time_left": 145.0
       }
     },
     {
@@ -4169,7 +4169,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "2:01"
+        "time_left": 121.0
       }
     },
     {
@@ -4187,7 +4187,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "2:00"
+        "time_left": 120.0
       }
     },
     {
@@ -4212,7 +4212,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "1:59"
+        "time_left": 119.0
       }
     },
     {
@@ -4227,7 +4227,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "1:58"
+        "time_left": 118.0
       }
     },
     {
@@ -4249,7 +4249,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "1:58"
+        "time_left": 118.0
       }
     },
     {
@@ -4268,7 +4268,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "SECOND",
-        "time_left": "1:58"
+        "time_left": 118.0
       },
       "total_num_shots": "2"
     },
@@ -4288,7 +4288,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "SECOND",
-        "time_left": "1:58"
+        "time_left": 118.0
       },
       "total_num_shots": "2"
     },
@@ -4314,7 +4314,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "1:40"
+        "time_left": 100.0
       }
     },
     {
@@ -4332,7 +4332,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "1:39"
+        "time_left": 99.0
       }
     },
     {
@@ -4360,7 +4360,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "1:33"
+        "time_left": 93.0
       }
     },
     {
@@ -4373,7 +4373,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "1:25"
+        "time_left": 85.0
       },
       "timeout_type": "TWENTY_SECOND"
     },
@@ -4399,7 +4399,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "1:15"
+        "time_left": 75.0
       }
     },
     {
@@ -4421,7 +4421,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "0:57.8"
+        "time_left": 57.8
       }
     },
     {
@@ -4440,7 +4440,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "SECOND",
-        "time_left": "0:57.8"
+        "time_left": 57.8
       },
       "total_num_shots": "2"
     },
@@ -4460,7 +4460,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "SECOND",
-        "time_left": "0:57.8"
+        "time_left": 57.8
       },
       "total_num_shots": "2"
     },
@@ -4479,7 +4479,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "0:56.9"
+        "time_left": 56.9
       }
     },
     {
@@ -4501,7 +4501,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "0:44.4"
+        "time_left": 44.4
       }
     },
     {
@@ -4520,7 +4520,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "SECOND",
-        "time_left": "0:44.4"
+        "time_left": 44.4
       },
       "total_num_shots": "2"
     },
@@ -4542,7 +4542,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "0:44.4"
+        "time_left": 44.4
       }
     },
     {
@@ -4561,7 +4561,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "SECOND",
-        "time_left": "0:44.4"
+        "time_left": 44.4
       },
       "total_num_shots": "2"
     },
@@ -4590,7 +4590,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "0:27"
+        "time_left": 27.0
       }
     },
     {
@@ -4615,7 +4615,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "0:03.5"
+        "time_left": 3.5
       }
     },
     {
@@ -4633,7 +4633,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "0:02.9"
+        "time_left": 2.9
       }
     },
     {
@@ -4658,7 +4658,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "0:02.6"
+        "time_left": 2.6
       }
     },
     {
@@ -4676,7 +4676,7 @@
       },
       "time": {
         "quarter": "SECOND",
-        "time_left": "0:00.4"
+        "time_left": 0.4
       }
     },
     {
@@ -4686,7 +4686,7 @@
       "score": null,
       "time": {
         "quarter": "SECOND",
-        "time_left": "0:00"
+        "time_left": 0.0
       }
     },
     {
@@ -4696,7 +4696,7 @@
       "score": null,
       "time": {
         "quarter": "THIRD",
-        "time_left": "12:00"
+        "time_left": 720.0
       }
     },
     {
@@ -4717,7 +4717,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "11:46"
+        "time_left": 706.0
       },
       "turnover_type": "BAD_PASS"
     },
@@ -4743,7 +4743,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "11:33"
+        "time_left": 693.0
       }
     },
     {
@@ -4761,7 +4761,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "11:32"
+        "time_left": 692.0
       }
     },
     {
@@ -4786,7 +4786,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "11:27"
+        "time_left": 687.0
       }
     },
     {
@@ -4811,7 +4811,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "11:05"
+        "time_left": 665.0
       }
     },
     {
@@ -4829,7 +4829,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "11:04"
+        "time_left": 664.0
       }
     },
     {
@@ -4854,7 +4854,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "10:52"
+        "time_left": 652.0
       }
     },
     {
@@ -4882,7 +4882,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "10:26"
+        "time_left": 626.0
       }
     },
     {
@@ -4904,7 +4904,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "10:05"
+        "time_left": 605.0
       }
     },
     {
@@ -4923,7 +4923,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "THIRD",
-        "time_left": "10:05"
+        "time_left": 605.0
       },
       "total_num_shots": "2"
     },
@@ -4943,7 +4943,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "THIRD",
-        "time_left": "10:05"
+        "time_left": 605.0
       },
       "total_num_shots": "2"
     },
@@ -4972,7 +4972,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "9:50"
+        "time_left": 590.0
       }
     },
     {
@@ -4994,7 +4994,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "9:34"
+        "time_left": 574.0
       }
     },
     {
@@ -5013,7 +5013,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "THIRD",
-        "time_left": "9:34"
+        "time_left": 574.0
       },
       "total_num_shots": "2"
     },
@@ -5035,7 +5035,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "9:34"
+        "time_left": 574.0
       }
     },
     {
@@ -5054,7 +5054,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "THIRD",
-        "time_left": "9:34"
+        "time_left": 574.0
       },
       "total_num_shots": "2"
     },
@@ -5080,7 +5080,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "9:17"
+        "time_left": 557.0
       }
     },
     {
@@ -5098,7 +5098,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "9:16"
+        "time_left": 556.0
       }
     },
     {
@@ -5126,7 +5126,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "9:03"
+        "time_left": 543.0
       }
     },
     {
@@ -5151,7 +5151,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "8:34"
+        "time_left": 514.0
       }
     },
     {
@@ -5169,7 +5169,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "8:33"
+        "time_left": 513.0
       }
     },
     {
@@ -5197,7 +5197,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "8:13"
+        "time_left": 493.0
       }
     },
     {
@@ -5222,7 +5222,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "7:56"
+        "time_left": 476.0
       }
     },
     {
@@ -5247,7 +5247,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "7:38"
+        "time_left": 458.0
       }
     },
     {
@@ -5265,7 +5265,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "7:37"
+        "time_left": 457.0
       }
     },
     {
@@ -5286,7 +5286,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "7:34"
+        "time_left": 454.0
       },
       "turnover_type": "BAD_PASS"
     },
@@ -5309,7 +5309,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "7:32"
+        "time_left": 452.0
       }
     },
     {
@@ -5328,7 +5328,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "THIRD",
-        "time_left": "7:32"
+        "time_left": 452.0
       },
       "total_num_shots": "2"
     },
@@ -5348,7 +5348,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "THIRD",
-        "time_left": "7:32"
+        "time_left": 452.0
       },
       "total_num_shots": "2"
     },
@@ -5367,7 +5367,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "7:31"
+        "time_left": 451.0
       }
     },
     {
@@ -5392,7 +5392,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "7:13"
+        "time_left": 433.0
       }
     },
     {
@@ -5410,7 +5410,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "7:12"
+        "time_left": 432.0
       }
     },
     {
@@ -5435,7 +5435,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "7:06"
+        "time_left": 426.0
       }
     },
     {
@@ -5463,7 +5463,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "6:42"
+        "time_left": 402.0
       }
     },
     {
@@ -5485,7 +5485,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "6:27"
+        "time_left": 387.0
       }
     },
     {
@@ -5504,7 +5504,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "THIRD",
-        "time_left": "6:27"
+        "time_left": 387.0
       },
       "total_num_shots": "2"
     },
@@ -5520,7 +5520,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "6:27"
+        "time_left": 387.0
       }
     },
     {
@@ -5539,7 +5539,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "THIRD",
-        "time_left": "6:27"
+        "time_left": 387.0
       },
       "total_num_shots": "2"
     },
@@ -5562,7 +5562,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "6:12"
+        "time_left": 372.0
       }
     },
     {
@@ -5581,7 +5581,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "THIRD",
-        "time_left": "6:12"
+        "time_left": 372.0
       },
       "total_num_shots": "2"
     },
@@ -5601,7 +5601,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "THIRD",
-        "time_left": "6:12"
+        "time_left": 372.0
       },
       "total_num_shots": "2"
     },
@@ -5620,7 +5620,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "6:11"
+        "time_left": 371.0
       }
     },
     {
@@ -5648,7 +5648,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "5:56"
+        "time_left": 356.0
       }
     },
     {
@@ -5673,7 +5673,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "5:38"
+        "time_left": 338.0
       }
     },
     {
@@ -5688,7 +5688,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "5:37"
+        "time_left": 337.0
       }
     },
     {
@@ -5701,7 +5701,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "5:37"
+        "time_left": 337.0
       },
       "timeout_type": "FULL"
     },
@@ -5723,7 +5723,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "5:37"
+        "time_left": 337.0
       }
     },
     {
@@ -5748,7 +5748,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "5:22"
+        "time_left": 322.0
       }
     },
     {
@@ -5773,7 +5773,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "5:06"
+        "time_left": 306.0
       }
     },
     {
@@ -5798,7 +5798,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "4:40"
+        "time_left": 280.0
       }
     },
     {
@@ -5823,7 +5823,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "4:24"
+        "time_left": 264.0
       }
     },
     {
@@ -5844,7 +5844,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "4:14"
+        "time_left": 254.0
       },
       "turnover_type": "BAD_PASS"
     },
@@ -5873,7 +5873,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "4:08"
+        "time_left": 248.0
       }
     },
     {
@@ -5891,7 +5891,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "4:07"
+        "time_left": 247.0
       }
     },
     {
@@ -5919,7 +5919,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "4:02"
+        "time_left": 242.0
       }
     },
     {
@@ -5941,7 +5941,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "3:43"
+        "time_left": 223.0
       }
     },
     {
@@ -5962,7 +5962,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "3:43"
+        "time_left": 223.0
       }
     },
     {
@@ -5983,7 +5983,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "3:43"
+        "time_left": 223.0
       }
     },
     {
@@ -6008,7 +6008,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "3:35"
+        "time_left": 215.0
       }
     },
     {
@@ -6026,7 +6026,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "3:35"
+        "time_left": 215.0
       }
     },
     {
@@ -6054,7 +6054,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "3:33"
+        "time_left": 213.0
       }
     },
     {
@@ -6067,7 +6067,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "3:23"
+        "time_left": 203.0
       },
       "timeout_type": "FULL"
     },
@@ -6089,7 +6089,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "3:23"
+        "time_left": 203.0
       }
     },
     {
@@ -6114,7 +6114,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "3:03"
+        "time_left": 183.0
       }
     },
     {
@@ -6132,7 +6132,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "3:02"
+        "time_left": 182.0
       }
     },
     {
@@ -6160,7 +6160,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "2:55"
+        "time_left": 175.0
       }
     },
     {
@@ -6182,7 +6182,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "2:55"
+        "time_left": 175.0
       }
     },
     {
@@ -6201,7 +6201,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "THIRD",
-        "time_left": "2:55"
+        "time_left": 175.0
       },
       "total_num_shots": "1"
     },
@@ -6230,7 +6230,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "2:41"
+        "time_left": 161.0
       }
     },
     {
@@ -6245,7 +6245,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "2:40"
+        "time_left": 160.0
       }
     },
     {
@@ -6266,7 +6266,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "2:40"
+        "time_left": 160.0
       }
     },
     {
@@ -6291,7 +6291,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "2:35"
+        "time_left": 155.0
       }
     },
     {
@@ -6309,7 +6309,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "2:34"
+        "time_left": 154.0
       }
     },
     {
@@ -6331,7 +6331,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "2:17"
+        "time_left": 137.0
       }
     },
     {
@@ -6350,7 +6350,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "THIRD",
-        "time_left": "2:17"
+        "time_left": 137.0
       },
       "total_num_shots": "2"
     },
@@ -6366,7 +6366,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "2:17"
+        "time_left": 137.0
       }
     },
     {
@@ -6385,7 +6385,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "THIRD",
-        "time_left": "2:17"
+        "time_left": 137.0
       },
       "total_num_shots": "2"
     },
@@ -6404,7 +6404,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "2:16"
+        "time_left": 136.0
       }
     },
     {
@@ -6425,7 +6425,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "1:58"
+        "time_left": 118.0
       },
       "turnover_type": "BAD_PASS"
     },
@@ -6448,7 +6448,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "1:57"
+        "time_left": 117.0
       }
     },
     {
@@ -6467,7 +6467,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "THIRD",
-        "time_left": "1:57"
+        "time_left": 117.0
       },
       "total_num_shots": "2"
     },
@@ -6487,7 +6487,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "THIRD",
-        "time_left": "1:57"
+        "time_left": 117.0
       },
       "total_num_shots": "2"
     },
@@ -6516,7 +6516,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "1:40"
+        "time_left": 100.0
       }
     },
     {
@@ -6534,7 +6534,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "1:39"
+        "time_left": 99.0
       }
     },
     {
@@ -6559,7 +6559,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "1:35"
+        "time_left": 95.0
       }
     },
     {
@@ -6581,7 +6581,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "1:35"
+        "time_left": 95.0
       }
     },
     {
@@ -6600,7 +6600,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "THIRD",
-        "time_left": "1:35"
+        "time_left": 95.0
       },
       "total_num_shots": "1"
     },
@@ -6626,7 +6626,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "1:22"
+        "time_left": 82.0
       }
     },
     {
@@ -6651,7 +6651,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "0:55.9"
+        "time_left": 55.9
       }
     },
     {
@@ -6669,7 +6669,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "0:54.5"
+        "time_left": 54.5
       }
     },
     {
@@ -6691,7 +6691,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "0:48.9"
+        "time_left": 48.9
       }
     },
     {
@@ -6710,7 +6710,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "THIRD",
-        "time_left": "0:48.9"
+        "time_left": 48.9
       },
       "total_num_shots": "2"
     },
@@ -6726,7 +6726,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "0:48.9"
+        "time_left": 48.9
       }
     },
     {
@@ -6745,7 +6745,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "THIRD",
-        "time_left": "0:48.9"
+        "time_left": 48.9
       },
       "total_num_shots": "2"
     },
@@ -6771,7 +6771,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "0:35.9"
+        "time_left": 35.9
       }
     },
     {
@@ -6789,7 +6789,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "0:34.9"
+        "time_left": 34.9
       }
     },
     {
@@ -6814,7 +6814,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "0:29.9"
+        "time_left": 29.9
       }
     },
     {
@@ -6832,7 +6832,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "0:28.8"
+        "time_left": 28.8
       }
     },
     {
@@ -6857,7 +6857,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "0:07.9"
+        "time_left": 7.9
       }
     },
     {
@@ -6875,7 +6875,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "0:06.9"
+        "time_left": 6.9
       }
     },
     {
@@ -6900,7 +6900,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "0:06.1"
+        "time_left": 6.1
       }
     },
     {
@@ -6928,7 +6928,7 @@
       },
       "time": {
         "quarter": "THIRD",
-        "time_left": "0:00"
+        "time_left": 0.0
       }
     },
     {
@@ -6938,7 +6938,7 @@
       "score": null,
       "time": {
         "quarter": "THIRD",
-        "time_left": "0:00"
+        "time_left": 0.0
       }
     },
     {
@@ -6948,7 +6948,7 @@
       "score": null,
       "time": {
         "quarter": "FOURTH",
-        "time_left": "12:00"
+        "time_left": 720.0
       }
     },
     {
@@ -6973,7 +6973,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "11:43"
+        "time_left": 703.0
       }
     },
     {
@@ -6991,7 +6991,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "11:41"
+        "time_left": 701.0
       }
     },
     {
@@ -7016,7 +7016,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "11:26"
+        "time_left": 686.0
       }
     },
     {
@@ -7044,7 +7044,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "11:09"
+        "time_left": 669.0
       }
     },
     {
@@ -7072,7 +7072,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "10:42"
+        "time_left": 642.0
       }
     },
     {
@@ -7090,7 +7090,7 @@
       "steal_by": null,
       "time": {
         "quarter": "FOURTH",
-        "time_left": "10:19"
+        "time_left": 619.0
       },
       "turnover_type": "BAD_PASS"
     },
@@ -7116,7 +7116,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "10:06"
+        "time_left": 606.0
       }
     },
     {
@@ -7134,7 +7134,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "10:03"
+        "time_left": 603.0
       }
     },
     {
@@ -7156,7 +7156,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "10:03"
+        "time_left": 603.0
       }
     },
     {
@@ -7175,7 +7175,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "10:03"
+        "time_left": 603.0
       }
     },
     {
@@ -7194,7 +7194,7 @@
       "shot_number": null,
       "time": {
         "quarter": "FOURTH",
-        "time_left": "10:03"
+        "time_left": 603.0
       },
       "total_num_shots": null
     },
@@ -7214,7 +7214,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "FOURTH",
-        "time_left": "10:03"
+        "time_left": 603.0
       },
       "total_num_shots": "2"
     },
@@ -7236,7 +7236,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "10:03"
+        "time_left": 603.0
       }
     },
     {
@@ -7255,7 +7255,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "FOURTH",
-        "time_left": "10:03"
+        "time_left": 603.0
       },
       "total_num_shots": "2"
     },
@@ -7281,7 +7281,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "9:41"
+        "time_left": 581.0
       }
     },
     {
@@ -7299,7 +7299,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "9:40"
+        "time_left": 580.0
       }
     },
     {
@@ -7320,7 +7320,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "9:33"
+        "time_left": 573.0
       },
       "turnover_type": "LOST_BALL"
     },
@@ -7343,7 +7343,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "9:31"
+        "time_left": 571.0
       }
     },
     {
@@ -7362,7 +7362,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "FOURTH",
-        "time_left": "9:31"
+        "time_left": 571.0
       },
       "total_num_shots": "2"
     },
@@ -7378,7 +7378,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "9:31"
+        "time_left": 571.0
       }
     },
     {
@@ -7397,7 +7397,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "FOURTH",
-        "time_left": "9:31"
+        "time_left": 571.0
       },
       "total_num_shots": "2"
     },
@@ -7413,7 +7413,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "9:31"
+        "time_left": 571.0
       }
     },
     {
@@ -7438,7 +7438,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "9:14"
+        "time_left": 554.0
       }
     },
     {
@@ -7456,7 +7456,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "9:13"
+        "time_left": 553.0
       }
     },
     {
@@ -7481,7 +7481,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "8:53"
+        "time_left": 533.0
       }
     },
     {
@@ -7499,7 +7499,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "8:52"
+        "time_left": 532.0
       }
     },
     {
@@ -7524,7 +7524,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "8:42"
+        "time_left": 522.0
       }
     },
     {
@@ -7542,7 +7542,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "8:41"
+        "time_left": 521.0
       }
     },
     {
@@ -7564,7 +7564,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "8:34"
+        "time_left": 514.0
       }
     },
     {
@@ -7577,7 +7577,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "8:34"
+        "time_left": 514.0
       },
       "timeout_type": "OFFICIAL"
     },
@@ -7599,7 +7599,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "8:34"
+        "time_left": 514.0
       }
     },
     {
@@ -7620,7 +7620,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "8:34"
+        "time_left": 514.0
       }
     },
     {
@@ -7648,7 +7648,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "8:24"
+        "time_left": 504.0
       }
     },
     {
@@ -7669,7 +7669,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "8:01"
+        "time_left": 481.0
       },
       "turnover_type": "BAD_PASS"
     },
@@ -7695,7 +7695,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "7:57"
+        "time_left": 477.0
       }
     },
     {
@@ -7720,7 +7720,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "7:30"
+        "time_left": 450.0
       }
     },
     {
@@ -7738,7 +7738,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "7:29"
+        "time_left": 449.0
       }
     },
     {
@@ -7763,7 +7763,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "7:10"
+        "time_left": 430.0
       }
     },
     {
@@ -7781,7 +7781,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "7:09"
+        "time_left": 429.0
       }
     },
     {
@@ -7806,7 +7806,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "7:05"
+        "time_left": 425.0
       }
     },
     {
@@ -7824,7 +7824,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "7:04"
+        "time_left": 424.0
       }
     },
     {
@@ -7846,7 +7846,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "6:58"
+        "time_left": 418.0
       }
     },
     {
@@ -7865,7 +7865,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "FOURTH",
-        "time_left": "6:58"
+        "time_left": 418.0
       },
       "total_num_shots": "2"
     },
@@ -7885,7 +7885,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "FOURTH",
-        "time_left": "6:58"
+        "time_left": 418.0
       },
       "total_num_shots": "2"
     },
@@ -7899,7 +7899,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "6:58"
+        "time_left": 418.0
       },
       "timeout_type": "FULL"
     },
@@ -7921,7 +7921,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "6:58"
+        "time_left": 418.0
       }
     },
     {
@@ -7942,7 +7942,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "6:58"
+        "time_left": 418.0
       }
     },
     {
@@ -7967,7 +7967,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "6:39"
+        "time_left": 399.0
       }
     },
     {
@@ -7984,7 +7984,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "6:39"
+        "time_left": 399.0
       },
       "violation_type": "DEFENSIVE_GOALTENDING"
     },
@@ -8010,7 +8010,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "6:22"
+        "time_left": 382.0
       }
     },
     {
@@ -8028,7 +8028,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "6:21"
+        "time_left": 381.0
       }
     },
     {
@@ -8053,7 +8053,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "5:58"
+        "time_left": 358.0
       }
     },
     {
@@ -8068,7 +8068,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "5:57"
+        "time_left": 357.0
       }
     },
     {
@@ -8090,7 +8090,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "5:43"
+        "time_left": 343.0
       }
     },
     {
@@ -8109,7 +8109,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "FOURTH",
-        "time_left": "5:43"
+        "time_left": 343.0
       },
       "total_num_shots": "2"
     },
@@ -8129,7 +8129,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "FOURTH",
-        "time_left": "5:43"
+        "time_left": 343.0
       },
       "total_num_shots": "2"
     },
@@ -8155,7 +8155,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "5:22"
+        "time_left": 322.0
       }
     },
     {
@@ -8173,7 +8173,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "5:21"
+        "time_left": 321.0
       }
     },
     {
@@ -8201,7 +8201,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "4:57"
+        "time_left": 297.0
       }
     },
     {
@@ -8219,7 +8219,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "4:56"
+        "time_left": 296.0
       }
     },
     {
@@ -8241,7 +8241,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "4:40"
+        "time_left": 280.0
       }
     },
     {
@@ -8262,7 +8262,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "4:40"
+        "time_left": 280.0
       }
     },
     {
@@ -8283,7 +8283,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "4:28"
+        "time_left": 268.0
       },
       "turnover_type": "BAD_PASS"
     },
@@ -8312,7 +8312,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "4:13"
+        "time_left": 253.0
       }
     },
     {
@@ -8334,7 +8334,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "4:02"
+        "time_left": 242.0
       }
     },
     {
@@ -8353,7 +8353,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "FOURTH",
-        "time_left": "4:02"
+        "time_left": 242.0
       },
       "total_num_shots": "2"
     },
@@ -8373,7 +8373,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "FOURTH",
-        "time_left": "4:02"
+        "time_left": 242.0
       },
       "total_num_shots": "2"
     },
@@ -8399,7 +8399,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "3:50"
+        "time_left": 230.0
       }
     },
     {
@@ -8427,7 +8427,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "3:21"
+        "time_left": 201.0
       }
     },
     {
@@ -8445,7 +8445,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "3:20"
+        "time_left": 200.0
       }
     },
     {
@@ -8470,7 +8470,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "3:13"
+        "time_left": 193.0
       }
     },
     {
@@ -8488,7 +8488,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "3:12"
+        "time_left": 192.0
       }
     },
     {
@@ -8510,7 +8510,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "2:55"
+        "time_left": 175.0
       }
     },
     {
@@ -8523,7 +8523,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "2:55"
+        "time_left": 175.0
       },
       "timeout_type": "FULL"
     },
@@ -8543,7 +8543,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "FOURTH",
-        "time_left": "2:55"
+        "time_left": 175.0
       },
       "total_num_shots": "2"
     },
@@ -8563,7 +8563,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "FOURTH",
-        "time_left": "2:55"
+        "time_left": 175.0
       },
       "total_num_shots": "2"
     },
@@ -8589,7 +8589,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "2:40"
+        "time_left": 160.0
       }
     },
     {
@@ -8607,7 +8607,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "2:39"
+        "time_left": 159.0
       }
     },
     {
@@ -8635,7 +8635,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "2:19"
+        "time_left": 139.0
       }
     },
     {
@@ -8660,7 +8660,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "2:01"
+        "time_left": 121.0
       }
     },
     {
@@ -8678,7 +8678,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "2:00"
+        "time_left": 120.0
       }
     },
     {
@@ -8700,7 +8700,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "1:52"
+        "time_left": 112.0
       }
     },
     {
@@ -8719,7 +8719,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "FOURTH",
-        "time_left": "1:52"
+        "time_left": 112.0
       },
       "total_num_shots": "2"
     },
@@ -8739,7 +8739,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "FOURTH",
-        "time_left": "1:52"
+        "time_left": 112.0
       },
       "total_num_shots": "2"
     },
@@ -8753,7 +8753,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "1:36"
+        "time_left": 96.0
       },
       "timeout_type": "FULL"
     },
@@ -8779,7 +8779,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "1:27"
+        "time_left": 87.0
       }
     },
     {
@@ -8797,7 +8797,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "1:26"
+        "time_left": 86.0
       }
     },
     {
@@ -8825,7 +8825,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "1:08"
+        "time_left": 68.0
       }
     },
     {
@@ -8838,7 +8838,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "1:08"
+        "time_left": 68.0
       },
       "timeout_type": "TWENTY_SECOND"
     },
@@ -8867,7 +8867,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "1:05"
+        "time_left": 65.0
       }
     },
     {
@@ -8889,7 +8889,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "0:47.7"
+        "time_left": 47.7
       }
     },
     {
@@ -8910,7 +8910,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "0:47.7"
+        "time_left": 47.7
       }
     },
     {
@@ -8929,7 +8929,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "FOURTH",
-        "time_left": "0:47.7"
+        "time_left": 47.7
       },
       "total_num_shots": "2"
     },
@@ -8945,7 +8945,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "0:47.7"
+        "time_left": 47.7
       }
     },
     {
@@ -8964,7 +8964,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "FOURTH",
-        "time_left": "0:47.7"
+        "time_left": 47.7
       },
       "total_num_shots": "2"
     },
@@ -8978,7 +8978,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "0:47.7"
+        "time_left": 47.7
       },
       "timeout_type": "TWENTY_SECOND"
     },
@@ -9000,7 +9000,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "0:47.7"
+        "time_left": 47.7
       }
     },
     {
@@ -9028,7 +9028,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "0:34.3"
+        "time_left": 34.3
       }
     },
     {
@@ -9041,7 +9041,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "0:34.3"
+        "time_left": 34.3
       },
       "timeout_type": "FULL"
     },
@@ -9067,7 +9067,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "0:20.9"
+        "time_left": 20.9
       }
     },
     {
@@ -9085,7 +9085,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "0:19.5"
+        "time_left": 19.5
       }
     },
     {
@@ -9110,7 +9110,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "0:01.9"
+        "time_left": 1.9
       }
     },
     {
@@ -9128,7 +9128,7 @@
       },
       "time": {
         "quarter": "FOURTH",
-        "time_left": "0:00.4"
+        "time_left": 0.4
       }
     },
     {
@@ -9138,7 +9138,7 @@
       "score": null,
       "time": {
         "quarter": "FOURTH",
-        "time_left": "0:00"
+        "time_left": 0.0
       }
     },
     {
@@ -9148,7 +9148,7 @@
       "score": null,
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "5:00"
+        "time_left": 300.0
       }
     },
     {
@@ -9169,7 +9169,7 @@
       "score": null,
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "5:00"
+        "time_left": 300.0
       }
     },
     {
@@ -9191,7 +9191,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "4:39"
+        "time_left": 279.0
       }
     },
     {
@@ -9210,7 +9210,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "4:39"
+        "time_left": 279.0
       },
       "total_num_shots": "2"
     },
@@ -9226,7 +9226,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "4:39"
+        "time_left": 279.0
       }
     },
     {
@@ -9245,7 +9245,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "4:39"
+        "time_left": 279.0
       },
       "total_num_shots": "2"
     },
@@ -9264,7 +9264,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "4:38"
+        "time_left": 278.0
       }
     },
     {
@@ -9281,7 +9281,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "4:25"
+        "time_left": 265.0
       },
       "violation_type": "KICKED_BALL"
     },
@@ -9307,7 +9307,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "4:19"
+        "time_left": 259.0
       }
     },
     {
@@ -9332,7 +9332,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "3:53"
+        "time_left": 233.0
       }
     },
     {
@@ -9347,7 +9347,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "3:52"
+        "time_left": 232.0
       }
     },
     {
@@ -9369,7 +9369,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "3:52"
+        "time_left": 232.0
       }
     },
     {
@@ -9394,7 +9394,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "3:38"
+        "time_left": 218.0
       }
     },
     {
@@ -9412,7 +9412,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "3:36"
+        "time_left": 216.0
       }
     },
     {
@@ -9440,7 +9440,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "3:33"
+        "time_left": 213.0
       }
     },
     {
@@ -9462,7 +9462,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "3:33"
+        "time_left": 213.0
       }
     },
     {
@@ -9483,7 +9483,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "3:33"
+        "time_left": 213.0
       }
     },
     {
@@ -9502,7 +9502,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "3:33"
+        "time_left": 213.0
       },
       "total_num_shots": "1"
     },
@@ -9521,7 +9521,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "3:32"
+        "time_left": 212.0
       }
     },
     {
@@ -9546,7 +9546,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "3:10"
+        "time_left": 190.0
       }
     },
     {
@@ -9574,7 +9574,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "2:41"
+        "time_left": 161.0
       }
     },
     {
@@ -9596,7 +9596,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "2:16"
+        "time_left": 136.0
       }
     },
     {
@@ -9615,7 +9615,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "2:16"
+        "time_left": 136.0
       },
       "total_num_shots": "2"
     },
@@ -9635,7 +9635,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "2:16"
+        "time_left": 136.0
       },
       "total_num_shots": "2"
     },
@@ -9657,7 +9657,7 @@
       "score": null,
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "2:00"
+        "time_left": 120.0
       }
     },
     {
@@ -9682,7 +9682,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "1:52"
+        "time_left": 112.0
       }
     },
     {
@@ -9700,7 +9700,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "1:51"
+        "time_left": 111.0
       }
     },
     {
@@ -9725,7 +9725,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "1:50"
+        "time_left": 110.0
       }
     },
     {
@@ -9750,7 +9750,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "1:35"
+        "time_left": 95.0
       }
     },
     {
@@ -9768,7 +9768,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "1:34"
+        "time_left": 94.0
       }
     },
     {
@@ -9796,7 +9796,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "1:28"
+        "time_left": 88.0
       }
     },
     {
@@ -9809,7 +9809,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "1:27"
+        "time_left": 87.0
       },
       "timeout_type": "FULL"
     },
@@ -9831,7 +9831,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "1:17"
+        "time_left": 77.0
       },
       "turnover_type": "BAD_PASS"
     },
@@ -9857,7 +9857,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:59.7"
+        "time_left": 59.7
       }
     },
     {
@@ -9879,7 +9879,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:59.7"
+        "time_left": 59.7
       }
     },
     {
@@ -9898,7 +9898,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:59.7"
+        "time_left": 59.7
       },
       "total_num_shots": "1"
     },
@@ -9912,7 +9912,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:59.7"
+        "time_left": 59.7
       },
       "timeout_type": "TWENTY_SECOND"
     },
@@ -9938,7 +9938,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:46.9"
+        "time_left": 46.9
       }
     },
     {
@@ -9956,7 +9956,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:45.9"
+        "time_left": 45.9
       }
     },
     {
@@ -9981,7 +9981,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:22.9"
+        "time_left": 22.9
       }
     },
     {
@@ -9999,7 +9999,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:21.9"
+        "time_left": 21.9
       }
     },
     {
@@ -10021,7 +10021,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:18.4"
+        "time_left": 18.4
       }
     },
     {
@@ -10042,7 +10042,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:18.4"
+        "time_left": 18.4
       }
     },
     {
@@ -10061,7 +10061,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:18.4"
+        "time_left": 18.4
       },
       "total_num_shots": "2"
     },
@@ -10083,7 +10083,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:18.4"
+        "time_left": 18.4
       }
     },
     {
@@ -10104,7 +10104,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:18.4"
+        "time_left": 18.4
       }
     },
     {
@@ -10123,7 +10123,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:18.4"
+        "time_left": 18.4
       },
       "total_num_shots": "2"
     },
@@ -10149,7 +10149,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:14.5"
+        "time_left": 14.5
       }
     },
     {
@@ -10171,7 +10171,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:11.6"
+        "time_left": 11.6
       }
     },
     {
@@ -10190,7 +10190,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:11.6"
+        "time_left": 11.6
       },
       "total_num_shots": "2"
     },
@@ -10210,7 +10210,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:11.6"
+        "time_left": 11.6
       },
       "total_num_shots": "2"
     },
@@ -10236,7 +10236,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:02.9"
+        "time_left": 2.9
       }
     },
     {
@@ -10258,7 +10258,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:02.2"
+        "time_left": 2.2
       }
     },
     {
@@ -10277,7 +10277,7 @@
       "shot_number": "1",
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:02.2"
+        "time_left": 2.2
       },
       "total_num_shots": "2"
     },
@@ -10293,7 +10293,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:02.2"
+        "time_left": 2.2
       }
     },
     {
@@ -10312,7 +10312,7 @@
       "shot_number": "2",
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:02.2"
+        "time_left": 2.2
       },
       "total_num_shots": "2"
     },
@@ -10326,7 +10326,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:02.2"
+        "time_left": 2.2
       },
       "timeout_type": "TWENTY_SECOND"
     },
@@ -10352,7 +10352,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:00.3"
+        "time_left": 0.3
       }
     },
     {
@@ -10367,7 +10367,7 @@
       },
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:00"
+        "time_left": 0.0
       }
     },
     {
@@ -10377,7 +10377,7 @@
       "score": null,
       "time": {
         "quarter": "OVERTIME_1",
-        "time_left": "0:00"
+        "time_left": 0.0
       }
     }
   ],

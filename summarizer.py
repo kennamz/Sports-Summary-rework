@@ -17,12 +17,14 @@ class Summarizer:
 
     def create_summary(self):
         summary = []
-        for event in self.events[:10]:
+        for event in self.events:
             timestamps = find_timestamp(event.time, self.frames)
-            if timestamps is not None:
-                matching_frames, indexes = timestamps
-                begin_index = indexes[0]
-                end_index = indexes[1]
+            if timestamps is None:
+                print("No matching timestamp found for event", event)
+                continue
+            matching_frames, indexes = timestamps
+            begin_index = indexes[0]
+            end_index = indexes[1]
 
 
 def find_timestamp(game_time, frames):
@@ -42,14 +44,14 @@ def find_timestamp(game_time, frames):
             last_was_match = True
             matches.append(frame)
         else:
+            if last_was_match:
+                end_index = index - 1
             last_was_match = False
-            end_index = index - 1
             continue
 
     if len(matches) == 0:
         return None
     else:
-        print(game_time, len(matches), begin_index, end_index)
         return matches, (begin_index, end_index)
 
 
