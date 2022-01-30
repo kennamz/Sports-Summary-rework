@@ -15,8 +15,6 @@ import os  # for saving all files to the right place
 import tensorflow as tf  # for classifying the camera angle
 
 
-
-
 ##########################################################
 # Process the video
 ##########################################################
@@ -37,7 +35,7 @@ def ocr(img):
 def quarter_and_time(input_str):
     if len(input_str) > 8:  # filter out text that's too short
         # determine quarter
-        quarter = -1;
+        quarter = -1
         if input_str.find("st") != -1:
             quarter = 1
         elif input_str.find("nd") != -1:
@@ -118,7 +116,7 @@ def process_video(every_x_frame):
     iter = video.iter_frames(with_times=True)
 
     try:
-        while (True):
+        while True:
             t, video_frame = next(itertools.islice(iter, every_x_frame, None))
             audio_frame = audio.get_frame(t)
 

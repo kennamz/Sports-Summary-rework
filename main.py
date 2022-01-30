@@ -1,15 +1,13 @@
-import sys
-
 import numpy
 
-from game import *
-from screen import *
+from screen import Screen
 from summarizer import Summarizer
 from video import *
 
 import pandas as pd
 import jsons
 import json
+import tkinter as tk
 
 
 def read_inputs():
@@ -63,7 +61,8 @@ if __name__ == '__main__':
     summarizer = Summarizer(game, video)
     summarizer.create_summary()
 
-    # root = tk.Tk()
-    # player = Screen(root)
-    #
-    # root.mainloop()  # to keep the GUI open
+    root = tk.Tk()
+    player = Screen(root)
+
+    root.mainloop()  # to keep the GUI open
+

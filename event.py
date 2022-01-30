@@ -1,5 +1,8 @@
 from enum import Enum, auto
 
+from gametime import GameTime
+from teams import Team
+
 
 class Quarter(Enum):
     FIRST = 1
@@ -66,7 +69,7 @@ class Score:
 
 
 class Event:
-    def __init__(self, time, relevant_team, score, description, event_type):
+    def __init__(self, time: GameTime, relevant_team: Team, score: Score, description: str, event_type: EventType):
         self.time = time
         self.relevant_team = relevant_team
         self.score = score
@@ -103,7 +106,7 @@ class FieldGoal(Event):
         return "Shot of type " + str(self.event_type) + \
                " " + made_str + \
                " at " + str(self.time) + \
-               " by " + self.player + \
+               " by " + self.player.full_name + \
                " at position " + str(self.position)
 
 

@@ -27,9 +27,9 @@ class GameTime:
 def parse_timedelta_from_str(time_left_str):
     try:
         colon_split = re.split(r":", time_left_str)
-        minutes = int(colon_split[0])
+        minutes = int(colon_split[-2])
 
-        period_split = re.split(r"\.", colon_split[1])
+        period_split = re.split(r"\.", colon_split[-1])
         seconds = int(period_split[0])
 
         milliseconds = 0

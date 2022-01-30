@@ -1,8 +1,15 @@
+from video import CameraAngle
+
+
 class SummaryItem:
-    def __int__(self, event, begin_time, end_time):
+    def __init__(self, event, begin_time, end_time):
         self.event = event
         self.begin_time = begin_time
         self.end_time = end_time
+
+    def __str__(self):
+        return "Summary item with event type " + str(self.event.event_type) + \
+               " from " + str(self.begin_time) + " to " + str(self.end_time)
 
 
 class Summarizer:
@@ -15,16 +22,54 @@ class Summarizer:
         self.events = game.events
         self.frames = video.frames
 
+        self.summary = None
+
     def create_summary(self):
         summary = []
         for event in self.events:
             timestamps = find_timestamp(event.time, self.frames)
             if timestamps is None:
-                print("No matching timestamp found for event", event)
+                # print("No matching timestamp found for event", event)
                 continue
             matching_frames, indexes = timestamps
+
             begin_index = indexes[0]
             end_index = indexes[1]
+
+            begin_time = find_prev_close_up(begin_index, self.frames)
+            end_time = find_next_close_up(end_index, self.frames)
+            if begin_time is None or end_time is None:
+                continue
+
+            summary_item = SummaryItem(event, begin_time, end_time)
+            summary.append(summary_item)
+
+        for item in summary:
+            print(item)
+
+
+def find_prev_close_up(begin_index, frames):
+    prev_i = begin_index
+    for i in range(len(frames[:begin_index]) - 1, -1, -1):  # iterate backwards
+        frame = frames[i]
+
+        if frame.angle == CameraAngle.CLOSE_UP:
+            # print("prev_i", prev_i, begin_index)
+            return frames[prev_i].timestamp
+
+        prev_i = i
+
+
+def find_next_close_up(end_index, frames):
+    ending_frames = frames[end_index:]
+    prev_i = 0
+    for i in range(len(ending_frames)):
+        frame = ending_frames[i]
+
+        if frame.angle == CameraAngle.CLOSE_UP:
+            return frames[prev_i+end_index].timestamp
+
+        prev_i = i
 
 
 def find_timestamp(game_time, frames):
@@ -49,9 +94,7 @@ def find_timestamp(game_time, frames):
             last_was_match = False
             continue
 
-    if len(matches) == 0:
+    if len(matches) == 0 or begin_index is None or end_index is None:
         return None
     else:
         return matches, (begin_index, end_index)
-
-

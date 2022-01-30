@@ -1,7 +1,6 @@
 import datetime
 import os
 
-from event import *
 from scrape import Scraper
 from teams import TEAM_NAME_TO_TEAM
 
