@@ -1,4 +1,5 @@
 import numpy
+import vlc
 
 from screen import Screen
 from summarizer import Summarizer
@@ -18,10 +19,7 @@ def read_inputs():
     return Game(inputs)
 
 
-if __name__ == '__main__':
-    create_new_game = True
-    file_name = "game.json"
-
+def create_game(create_new_game, file_name):
     if create_new_game:
         print("Creating new game")
 
@@ -42,27 +40,35 @@ if __name__ == '__main__':
             game = jsons.load(json_object, Game)
 
             f.close()
+    return game
+
+
+def create_video_data(process_new_video, file_name):
+    if process_new_video:
+        video = VideoProcessing(final_game)
+        video.process_video()
+    else:
+        video = VideoProcessing(file_name)
+    return video
+
+
+if __name__ == '__main__':
+    final_game = create_game(True, "game.json")
 
     # print(type(game.inputs), type(game.date), type(game.home_team), type(game.clock), type(game.events))
     # for event in game.events:
     #     print(type(event))
 
-    process_new_video = False
-    file_name = "video.data"
-
-    if process_new_video:
-        video = VideoProcessing(game)
-        video.process_video()
-    else:
-        video = VideoProcessing(file_name)
+    final_video = create_video_data(False, "video.data")
 
     print("Beginning summarization")
 
-    summarizer = Summarizer(game, video)
+    summarizer = Summarizer(final_game, final_video)
     summarizer.create_summary()
 
     root = tk.Tk()
-    player = Screen(root)
+    player = Screen(root, 'LongOvertimeClip.mp4')
+    player.play_summary(summarizer.summary)
 
     root.mainloop()  # to keep the GUI open
 

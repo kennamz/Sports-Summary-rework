@@ -8,7 +8,7 @@ from PIL import ImageTk, Image
 
 class Screen(tk.Frame):
 
-    def __init__(self, parent):
+    def __init__(self, parent, video_file_name):
         self.events_filter = {
             (EventType.FREE_THROW, Make.MAKE): tk.BooleanVar(),
             (EventType.FREE_THROW, Make.MISS): tk.BooleanVar(),
@@ -30,45 +30,33 @@ class Screen(tk.Frame):
 
         tk.Frame.__init__(self, parent, bg='black')
         self.parent = parent
-        self.parent.state('zoomed')
+        self.parent.geometry("350x600+0+100")
 
-        # Creating VLC player
-        self.instance = vlc.Instance()
-        self.player = self.instance.media_player_new()
-
-        self.court_img_top, self.court_img_bottom = None, None
+        self.court_img = None
 
         self.make_court()
+        self.make_checkbuttons()
         self.make_controls()
         self.pack(side=tk.TOP, expand=1, fill=tk.BOTH)
 
-        self.play('LongOvertimeClip.mp4')
+        self.video_file_name = video_file_name
 
     def make_court(self):
-        frame = tk.Frame(self.parent)
-
         orig_court_width, orig_court_height = 500, 472
         scale_factor = 2 / 3.1
         court_width, court_height = int(orig_court_width * scale_factor), int(orig_court_height * scale_factor)
 
-        canvas = tk.Canvas(frame, width=court_width, height=court_height * 2)
+        canvas = tk.Canvas(self.parent, width=court_width, height=court_height)
         canvas.pack(side=tk.TOP)
 
         court = Image.open("nbahalfcourt.png").resize((court_width, court_height))
-        self.court_img_top = ImageTk.PhotoImage(court)
-        court = court.rotate(180)
-        self.court_img_bottom = ImageTk.PhotoImage(court)
+        self.court_img = ImageTk.PhotoImage(court)
 
-        canvas.create_image(3, 3, anchor=tk.NW, image=self.court_img_top)
-        canvas.create_image(3, court_height + 1, anchor=tk.NW, image=self.court_img_bottom)
+        canvas.create_image(3, 3, anchor=tk.NW, image=self.court_img)
 
-        checkbuttons_frame = tk.Frame(frame)
-        self.make_checkbuttons(checkbuttons_frame)
-        checkbuttons_frame.pack(side=tk.BOTTOM)
+    def make_checkbuttons(self):
+        frame = tk.Frame(self.parent)
 
-        frame.pack(side=tk.RIGHT)
-
-    def make_checkbuttons(self, frame):
         c1 = tk.Checkbutton(frame, text='Free Throw Made', onvalue=True, offvalue=False,
                             variable=self.events_filter[(EventType.FREE_THROW, Make.MAKE)])
         c1.grid(row=0, column=0)
@@ -133,35 +121,78 @@ class Screen(tk.Frame):
                              onvalue=True, offvalue=False)
         c15.grid(row=7, column=1)
 
+        frame.pack(side=tk.TOP)
+
     def make_controls(self):
         controls = tk.Frame(self.parent)
+
         previous_play = tk.Button(controls, text="Previous")
         pause = tk.Button(controls, text="Pause")
         play = tk.Button(controls, text="Play")
         stop = tk.Button(controls, text="Stop")
         next_play = tk.Button(controls, text="Next")
+
         pady, ipadx, ipady = 2, 10, 1
         previous_play.pack(side=tk.LEFT, padx=200, pady=pady, ipadx=ipadx, ipady=ipady)
         pause.pack(side=tk.LEFT, padx=5, pady=pady, ipadx=ipadx, ipady=ipady)
         play.pack(side=tk.LEFT, padx=5, pady=pady, ipadx=ipadx, ipady=ipady)
         stop.pack(side=tk.LEFT, padx=50, pady=pady, ipadx=ipadx, ipady=ipady)
         next_play.pack(side=tk.LEFT, padx=200, pady=pady, ipadx=ipadx, ipady=ipady)
+
         controls.pack(side=tk.BOTTOM)
 
-        duration_slider = tk.Frame(self.parent)
-        self.scale_var = tk.DoubleVar()
-        self.timeslider_last_val = ""
-        self.timeslider = tk.Scale(duration_slider, variable=self.scale_var,
-                                   from_=0, to=1000, orient=tk.HORIZONTAL, length=500)
-        self.timeslider.pack(side=tk.BOTTOM, fill=tk.X, expand=1)
-        self.timeslider_last_update = time.time()
-        duration_slider.pack(side=tk.BOTTOM, fill=tk.X)
+    def play_next_item(self, event):
+        self.player.parent.destroy()
 
-    def play(self, _source):
-        # Function to start player from given source
-        media = self.instance.media_new(_source)
+        self.summary_index += 1
+        summary_item = self.summary[self.summary_index]
+
+        self.new_window = tk.Toplevel(self.parent)
+        self.player = Player(self.new_window, self.video_file_name, summary_item.begin_time, summary_item.end_time)
+
+        self.player.events.event_attach(vlc.EventType.MediaPlayerEndReached, self.play_next_item)
+        self.player.play()
+
+    def play_summary(self, summary):
+        self.summary = summary
+        self.summary_index = 0
+        summary_item = summary[self.summary_index]
+
+        self.new_window = tk.Toplevel(self.parent)
+        self.player = Player(self.new_window, self.video_file_name, summary_item.begin_time, summary_item.end_time)
+
+        self.player.events.event_attach(vlc.EventType.MediaPlayerEndReached, self.play_next_item)
+        self.player.play()
+
+    # def play_summary_item(self, summary_item):
+
+
+class Player:
+    def __init__(self, parent, video_file_name, start_timestamp, end_timestamp):
+        self.parent = parent
+        self.parent.geometry("1100x750+400+25")
+
+        self.frame = tk.Frame(self.parent, width=1100, height=750)
+        self.frame.pack()
+
+        self.video_file_name = video_file_name
+        self.instance = vlc.Instance()
+        self.player = self.instance.media_player_new()
+        self.events = self.player.event_manager()
+
+        self.player.set_hwnd(self.frame.winfo_id())
+        self.player.play()
+
+        self.start_timestamp = start_timestamp
+        self.end_timestamp = end_timestamp
+
+        self.play()
+
+    def play(self):
+        media = self.instance.media_new(self.video_file_name)
+        media.add_option('start-time=' + str(self.start_timestamp))
+        media.add_option('stop-time=' + str(self.end_timestamp))
         media.get_mrl()
         self.player.set_media(media)
 
-        self.player.set_hwnd(self.winfo_id())
         self.player.play()

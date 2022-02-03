@@ -41,11 +41,10 @@ class Summarizer:
             if begin_time is None or end_time is None:
                 continue
 
-            summary_item = SummaryItem(event, begin_time, end_time)
+            summary_item = SummaryItem(event, begin_time/1000, end_time/1000)
             summary.append(summary_item)
 
-        for item in summary:
-            print(item)
+        self.summary = summary
 
 
 def find_prev_close_up(begin_index, frames):
