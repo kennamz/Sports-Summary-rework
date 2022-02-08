@@ -23,8 +23,18 @@ class GameTime:
     def __str__(self):
         return "Quarter: " + str(self.quarter) + ", Time Remaining: " + str(self.time_left)
 
+    def __eq__(self, other):
+        result = ((self.quarter, self.time_left) == (other.quarter, other.time_left))
+        return result
+
+    def __lt__(self, other):
+        result = (self.quarter < other.quarter) and (self.time_left > other.time_left)
+        return result
+
 
 def parse_timedelta_from_str(time_left_str):
+    if time_left_str is None or time_left_str == "None":
+        return None
     try:
         colon_split = re.split(r":", time_left_str)
         minutes = int(colon_split[-2])
@@ -42,5 +52,5 @@ def parse_timedelta_from_str(time_left_str):
 
         return delta
     except:
-        print("Error in parse_timedelta_from_str()")
+        print("Error in parse_timedelta_from_str()", time_left_str)
         return None

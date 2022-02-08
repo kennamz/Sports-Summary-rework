@@ -40,7 +40,7 @@ class VideoProcessing:
         if isinstance(game_or_file, Game):
             game = game_or_file
             self.youtube_link = game.youtube_link
-            self.file_name = 'LongOvertimeClip.mp4'
+            self.file_name = 'raw_footage.mp4'
 
             self.game_events = game.events
             if self.game_events is None:
@@ -57,10 +57,10 @@ class VideoProcessing:
             file_name = game_or_file
             self.frames = read_from_csv(file_name)
 
-    def process_video(self):
+    def process_video(self, write_file_name):
         capture = cv2.VideoCapture(self.file_name)
 
-        with open('video.data', 'w') as output_file:
+        with open(write_file_name, 'w') as output_file:
 
             while True:
                 grabbed, frame = capture.read()
@@ -144,6 +144,8 @@ def read_from_csv(file_name):
             timestamp = float(row[1])
             quarter = event.QTR_STR_TO_QTR[row[2]]
             time = GameTime(quarter, row[3])
+            if time.time_left is None:
+                continue
 
             frame = Frame(angle, timestamp, time)
             frames.append(frame)

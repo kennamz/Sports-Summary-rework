@@ -46,3 +46,8 @@ class Game:
     def process_events(self):
         scraper = Scraper(self)
         self.events = scraper.scrape_all()
+
+        def get_time(event):
+            return event.time
+
+        self.events.sort(reverse=False, key=get_time)

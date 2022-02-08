@@ -1,15 +1,30 @@
+from event import Event
 from video import CameraAngle
 
 
 class SummaryItem:
-    def __init__(self, event, begin_time, end_time):
-        self.event = event
+    def __init__(self, events, begin_time, end_time):
+        if isinstance(events, list):
+            self.events = events
+        else:
+            self.events = [events]
+
         self.begin_time = begin_time
         self.end_time = end_time
 
     def __str__(self):
-        return "Summary item with event type " + str(self.event.event_type) + \
-               " from " + str(self.begin_time) + " to " + str(self.end_time)
+        # event_type = str(self.events[0].event_type)
+        begin = str(round(self.begin_time, 1))
+        end = str(round(self.end_time, 1))
+        length = str(round(self.end_time - self.begin_time, 1))
+        return "Summary item with " + str(len(self.events)) + " events, from " + \
+               begin + " s to " + end + " s, length " + length + " s"
+
+    def add_event(self, new_event):
+        if isinstance(self.events, list):
+            self.events.append(new_event)
+        else:
+            self.events = [self.events, new_event]
 
 
 class Summarizer:
@@ -22,12 +37,14 @@ class Summarizer:
         self.events = game.events
         self.frames = video.frames
 
-        self.summary = None
+        self.summary = []
 
     def create_summary(self):
-        summary = []
-        for event in self.events:
-            timestamps = find_timestamp(event.time, self.frames)
+        compiled_events = Event.compile_events(self.events)
+
+        for event in compiled_events:
+
+            timestamps = find_timestamp(event[0].time, self.frames)
             if timestamps is None:
                 # print("No matching timestamp found for event", event)
                 continue
@@ -42,9 +59,11 @@ class Summarizer:
                 continue
 
             summary_item = SummaryItem(event, begin_time/1000, end_time/1000)
-            summary.append(summary_item)
+            self.summary.append(summary_item)
 
-        self.summary = summary
+    def compile_summary(self):
+        for summary_item in self.summary:
+            pass
 
 
 def find_prev_close_up(begin_index, frames):

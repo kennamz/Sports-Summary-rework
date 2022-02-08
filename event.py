@@ -1,10 +1,10 @@
-from enum import Enum, auto
+from enum import Enum, auto, IntEnum
 
 from gametime import GameTime
 from teams import Team
 
 
-class Quarter(Enum):
+class Quarter(IntEnum):
     FIRST = 1
     SECOND = 2
     THIRD = 3
@@ -75,6 +75,25 @@ class Event:
         self.score = score
         self.description = description
         self.event_type = event_type
+
+    def __str__(self):
+        return "Event type: " + str(self.event_type) + " at " + str(self.time)
+
+    @staticmethod
+    def compile_events(events):
+        compiled_events = []
+        i = 0
+        while i < len(events):
+            event = events[i]
+            event_list = [event]
+            i += 1
+            for j in range(i, len(events)):
+                next_event = events[j]
+                if event.time == next_event.time:
+                    event_list.append(next_event)
+                    i = j + 1
+            compiled_events.append(event_list)
+        return compiled_events
 
 
 class FreeThrow(Event):

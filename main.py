@@ -46,7 +46,7 @@ def create_game(create_new_game, file_name):
 def create_video_data(process_new_video, file_name):
     if process_new_video:
         video = VideoProcessing(final_game)
-        video.process_video()
+        video.process_video(file_name)
     else:
         video = VideoProcessing(file_name)
     return video
@@ -59,15 +59,18 @@ if __name__ == '__main__':
     # for event in game.events:
     #     print(type(event))
 
-    final_video = create_video_data(False, "video.data")
+    final_video = create_video_data(False, "long_video.data")
 
     print("Beginning summarization")
 
     summarizer = Summarizer(final_game, final_video)
     summarizer.create_summary()
 
+    for item in summarizer.summary:
+        print(item)
+
     root = tk.Tk()
-    player = Screen(root, 'LongOvertimeClip.mp4')
+    player = Screen(root, 'raw_footage.mp4')
     player.play_summary(summarizer.summary)
 
     root.mainloop()  # to keep the GUI open
