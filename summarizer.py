@@ -16,7 +16,7 @@ class SummaryItem:
         # event_type = str(self.events[0].event_type)
         begin = str(round(self.begin_time, 1))
         end = str(round(self.end_time, 1))
-        length = str(round(self.end_time - self.begin_time, 1))
+        length = str(round(self.clip_length(), 1))
         return "Summary item with " + str(len(self.events)) + " events, from " + \
                begin + " s to " + end + " s, length " + length + " s"
 
@@ -25,6 +25,9 @@ class SummaryItem:
             self.events.append(new_event)
         else:
             self.events = [self.events, new_event]
+
+    def clip_length(self):
+        return self.end_time - self.begin_time
 
 
 class Summarizer:
@@ -60,16 +63,31 @@ class Summarizer:
 
             summary_item = SummaryItem(event, begin_time/1000, end_time/1000)
             self.summary.append(summary_item)
+        self.compile_summary()
 
     def compile_summary(self):
-        for summary_item in self.summary:
-            pass
+        def summary_item_begin_time(item):
+            return item.begin_time
+
+        self.summary.sort(key=summary_item_begin_time)
+
+        for i in range(len(self.summary)):
+            for j in range(i+1, len(self.summary)):
+                if self.summary[j].begin_time == self.summary[i].begin_time:
+                    continue
 
 
 def find_prev_close_up(begin_index, frames):
     prev_i = begin_index
+    initial_timestamp = frames[begin_index].timestamp
     for i in range(len(frames[:begin_index]) - 1, -1, -1):  # iterate backwards
         frame = frames[i]
+
+        difference = abs(frame.timestamp - initial_timestamp)
+        max_prev_time_dif = 4 * 1000
+        if difference > max_prev_time_dif:
+            print("over max difference", difference)
+            return frames[prev_i].timestamp
 
         if frame.angle == CameraAngle.CLOSE_UP:
             # print("prev_i", prev_i, begin_index)
@@ -81,8 +99,15 @@ def find_prev_close_up(begin_index, frames):
 def find_next_close_up(end_index, frames):
     ending_frames = frames[end_index:]
     prev_i = 0
+    initial_timestamp = frames[end_index].timestamp
     for i in range(len(ending_frames)):
         frame = ending_frames[i]
+
+        difference = abs(frame.timestamp - initial_timestamp)
+        max_prev_time_dif = 4 * 1000
+        if difference > max_prev_time_dif:
+            print("over max difference find_next_close_up", difference)
+            return frames[prev_i+end_index].timestamp
 
         if frame.angle == CameraAngle.CLOSE_UP:
             return frames[prev_i+end_index].timestamp
