@@ -19,15 +19,25 @@ class Quarter(IntEnum):
 
 QTR_STR_TO_QTR = {
     "Quarter.FIRST": Quarter.FIRST,
+    "FIRST": Quarter.FIRST,
     "Quarter.SECOND": Quarter.SECOND,
+    "SECOND": Quarter.SECOND,
     "Quarter.THIRD": Quarter.THIRD,
+    "THIRD": Quarter.THIRD,
     "Quarter.FOURTH": Quarter.FOURTH,
+    "FOURTH": Quarter.FOURTH,
     "Quarter.OVERTIME_1": Quarter.OVERTIME_1,
+    "OVERTIME_1": Quarter.OVERTIME_1,
     "Quarter.OVERTIME_2": Quarter.OVERTIME_2,
+    "OVERTIME_2": Quarter.OVERTIME_2,
     "Quarter.OVERTIME_3": Quarter.OVERTIME_3,
+    "OVERTIME_3": Quarter.OVERTIME_3,
     "Quarter.OVERTIME_4": Quarter.OVERTIME_4,
+    "OVERTIME_4": Quarter.OVERTIME_4,
     "Quarter.OVERTIME_5": Quarter.OVERTIME_5,
-    "Quarter.OVERTIME_6": Quarter.OVERTIME_6
+    "OVERTIME_5": Quarter.OVERTIME_5,
+    "Quarter.OVERTIME_6": Quarter.OVERTIME_6,
+    "OVERTIME_6": Quarter.OVERTIME_6
 }
 
 

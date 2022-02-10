@@ -44,9 +44,10 @@ def create_game(create_new_game, file_name):
 
 
 def create_video_data(process_new_video, file_name):
+    every_nth_frame = 3
     if process_new_video:
         video = VideoProcessing(final_game)
-        video.process_video(file_name)
+        video.process_video(file_name, every_nth_frame)
     else:
         video = VideoProcessing(file_name)
     return video
@@ -55,11 +56,7 @@ def create_video_data(process_new_video, file_name):
 if __name__ == '__main__':
     final_game = create_game(True, "game.json")
 
-    # print(type(game.inputs), type(game.date), type(game.home_team), type(game.clock), type(game.events))
-    # for event in game.events:
-    #     print(type(event))
-
-    final_video = create_video_data(False, "long_video.data")
+    final_video = create_video_data(False, "long_video_final.data")
 
     print("Beginning summarization")
 

@@ -49,7 +49,6 @@ class Summarizer:
 
             timestamps = find_timestamp(event[0].time, self.frames)
             if timestamps is None:
-                # print("No matching timestamp found for event", event)
                 continue
             matching_frames, indexes = timestamps
 
@@ -65,7 +64,7 @@ class Summarizer:
             self.summary.append(summary_item)
         self.compile_summary()
 
-    def compile_summary(self):
+    def compile_summary(self):  # TODO
         def summary_item_begin_time(item):
             return item.begin_time
 
@@ -86,11 +85,9 @@ def find_prev_close_up(begin_index, frames):
         difference = abs(frame.timestamp - initial_timestamp)
         max_prev_time_dif = 4 * 1000
         if difference > max_prev_time_dif:
-            print("over max difference", difference)
             return frames[prev_i].timestamp
 
         if frame.angle == CameraAngle.CLOSE_UP:
-            # print("prev_i", prev_i, begin_index)
             return frames[prev_i].timestamp
 
         prev_i = i
@@ -104,9 +101,8 @@ def find_next_close_up(end_index, frames):
         frame = ending_frames[i]
 
         difference = abs(frame.timestamp - initial_timestamp)
-        max_prev_time_dif = 4 * 1000
+        max_prev_time_dif = 6 * 1000
         if difference > max_prev_time_dif:
-            print("over max difference find_next_close_up", difference)
             return frames[prev_i+end_index].timestamp
 
         if frame.angle == CameraAngle.CLOSE_UP:
@@ -123,10 +119,8 @@ def find_timestamp(game_time, frames):
 
     for index in range(len(frames)):
         frame = frames[index]
-        quarter_matches = frame.game_time.quarter == game_time.quarter
-        time_matches = frame.game_time.time_left == game_time.time_left
 
-        if quarter_matches and time_matches:
+        if frame.game_time == game_time:
             if not last_was_match:
                 begin_index = index
             last_was_match = True
@@ -139,5 +133,10 @@ def find_timestamp(game_time, frames):
 
     if len(matches) == 0 or begin_index is None or end_index is None:
         return None
-    else:
-        return matches, (begin_index, end_index)
+
+    max_difference = 20
+    if abs(end_index - begin_index) > max_difference:
+        print("more than max_difference")
+        end_index = begin_index + max_difference
+
+    return matches, (begin_index, end_index)

@@ -18,19 +18,23 @@ class CameraAngle(Enum):
 
 ANGLE_STR_TO_ANGLE = {
     "CameraAngle.PROFILE": CameraAngle.PROFILE,
-    "CameraAngle.CLOSE_UP": CameraAngle.CLOSE_UP
+    "PROFILE": CameraAngle.PROFILE,
+    "CameraAngle.CLOSE_UP": CameraAngle.CLOSE_UP,
+    "CLOSE_UP": CameraAngle.CLOSE_UP
 }
 
 
 class Frame:
-    def __init__(self, angle, timestamp, game_time):
+    def __init__(self, angle: CameraAngle, timestamp: float, game_time: GameTime):
         self.angle = angle
         self.timestamp = timestamp
         self.game_time = game_time
 
     def __str__(self):
-        return str(self.angle) + "," + str(self.timestamp) + "," + \
-               str(self.game_time.quarter) + "," + str(self.game_time.time_left)
+        to_return = str(self.angle.name) + "," + str(self.timestamp)
+        if self.game_time is not None:
+            to_return += "," + str(self.game_time.quarter.name) + "," + str(self.game_time.time_left)
+        return to_return
 
 
 class VideoProcessing:
@@ -57,7 +61,7 @@ class VideoProcessing:
             file_name = game_or_file
             self.frames = read_from_csv(file_name)
 
-    def process_video(self, write_file_name):
+    def process_video(self, write_file_name, every_nth_frame):
         capture = cv2.VideoCapture(self.file_name)
 
         with open(write_file_name, 'w') as output_file:
@@ -67,18 +71,21 @@ class VideoProcessing:
                 if not grabbed:
                     break
 
+                frame_num = capture.get(cv2.CAP_PROP_POS_FRAMES)
+                if frame_num % every_nth_frame != 0:
+                    continue
+
                 game_time = self.determine_game_time(frame)
-                if game_time is not None:
-                    angle = self.determine_angle(frame)
-                    timestamp = capture.get(cv2.CAP_PROP_POS_MSEC)
+                angle = self.determine_angle(frame)
 
-                    if timestamp == 0:
-                        print("timestamp is 0")
-                        continue
+                timestamp = capture.get(cv2.CAP_PROP_POS_MSEC)
+                if timestamp == 0:
+                    print("timestamp is 0")
+                    continue
 
-                    frame_data = Frame(angle, timestamp, game_time)
-                    self.frames.append(frame_data)
-                    print(str(frame_data), file=output_file)
+                frame_data = Frame(angle, timestamp, game_time)
+                self.frames.append(frame_data)
+                print(str(frame_data), file=output_file)
 
             output_file.close()
 
@@ -121,17 +128,16 @@ def parse_game_time_from_ocr(input_str):
 
         try:
             time = re.split(r" ", input_str)[-1]
-            time = re.sub(r"[^0-9:]", "", time)  # strip all chars not relevant to time
+            time = re.sub(r"[^0-9:.]", "", time)  # strip all chars not relevant to time
 
         except ValueError:
             print("error determining time", input_str[:-1])
-            return
+            return None
 
         time = event.GameTime(quarter, time)
         return time
 
     else:
-        print("string input too short", input_str[:-1])
         return None
 
 
@@ -142,10 +148,10 @@ def read_from_csv(file_name):
         for row in csv_reader:
             angle = ANGLE_STR_TO_ANGLE[row[0]]
             timestamp = float(row[1])
-            quarter = event.QTR_STR_TO_QTR[row[2]]
-            time = GameTime(quarter, row[3])
-            if time.time_left is None:
-                continue
+            time = None
+            if len(row) > 2:
+                quarter = event.QTR_STR_TO_QTR[row[2]]
+                time = GameTime(quarter, row[3])
 
             frame = Frame(angle, timestamp, time)
             frames.append(frame)
