@@ -2,3 +2,4 @@
 *.mp4
 *.pyc
 *.data
+__pycache__/scrape.cpython-39.pyc

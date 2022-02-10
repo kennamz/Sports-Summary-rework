@@ -136,7 +136,6 @@ def find_timestamp(game_time, frames):
 
     max_difference = 20
     if abs(end_index - begin_index) > max_difference:
-        print("more than max_difference")
         end_index = begin_index + max_difference
 
     return matches, (begin_index, end_index)

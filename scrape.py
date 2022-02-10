@@ -36,44 +36,10 @@ class Scraper:
         return pbp_url, shot_chart_url
 
     def scrape_all(self):
-        # testing_pbp_urls = ["https://www.basketball-reference.com/boxscores/pbp/202201140SAC.html",
-        #                     "https://www.basketball-reference.com/boxscores/pbp/202110300WAS.html",
-        #                     "https://www.basketball-reference.com/boxscores/pbp/202110300IND.html",
-        #                     "https://www.basketball-reference.com/boxscores/pbp/202110300DET.html",
-        #                     "https://www.basketball-reference.com/boxscores/pbp/201305050OKC.html",
-        #                     "https://www.basketball-reference.com/boxscores/pbp/201211120TOR.html",
-        #                     "https://www.basketball-reference.com/boxscores/pbp/201203250ATL.html",
-        #                     "https://www.basketball-reference.com/boxscores/pbp/200502220HOU.html",
-        #                     "https://www.basketball-reference.com/boxscores/pbp/201002200CHI.html",
-        #                     "https://www.basketball-reference.com/boxscores/pbp/200612160NYK.html"]
-        #
-        # testing_position_urls = ["https://www.basketball-reference.com/boxscores/shot-chart/202201140SAC.html",
-        #                          "https://www.basketball-reference.com/boxscores/shot-chart/202110300WAS.html",
-        #                          "https://www.basketball-reference.com/boxscores/shot-chart/202110300IND.html",
-        #                          "https://www.basketball-reference.com/boxscores/shot-chart/202110300DET.html",
-        #                          "https://www.basketball-reference.com/boxscores/shot-chart/201305050OKC.html",
-        #                          "https://www.basketball-reference.com/boxscores/shot-chart/201211120TOR.html",
-        #                          "https://www.basketball-reference.com/boxscores/shot-chart/201203250ATL.html",
-        #                          "https://www.basketball-reference.com/boxscores/shot-chart/200502220HOU.html",
-        #                          "https://www.basketball-reference.com/boxscores/shot-chart/201002200CHI.html",
-        #                          "https://www.basketball-reference.com/boxscores/shot-chart/200612160NYK.html"]
-
-        self.shot_chart_url = "https://www.basketball-reference.com/boxscores/shot-chart/201205300MIA.html"
-        self.play_by_play_url = "https://www.basketball-reference.com/boxscores/pbp/201205300MIA.html"
-
         self.scrape_pbp()
         self.scrape_shot_positions()
         print("Finished scraping game events")
         return self.events
-
-        # for index in range(len(testing_pbp_urls)):
-        #     self.play_by_play_url = testing_pbp_urls[index]
-        #     self.shot_chart_url = testing_position_urls[index]
-        #
-        #     print("----", index, "----")
-        #
-        #     self.scrape_pbp()
-        #     self.scrape_shot_positions()
 
     def scrape_pbp(self):
         html = requests.get(self.play_by_play_url).text
@@ -81,7 +47,7 @@ class Scraper:
 
         table = parsed_html.find('table', id="pbp")
         if table is None:
-            raise Exception("No play by play table in url")
+            raise Exception("No play by play table in url", self.play_by_play_url)
         rows = table.find_all("tr")
 
         events = []
