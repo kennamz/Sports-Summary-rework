@@ -36,10 +36,12 @@ class Screen(tk.Frame):
 
         self.make_court()
         self.make_checkbuttons()
+        self.make_description()
         self.make_controls()
         self.pack(side=tk.TOP, expand=1, fill=tk.BOTH)
 
         self.video_file_name = video_file_name
+        self.player = None
 
     def make_court(self):
         orig_court_width, orig_court_height = 500, 472
@@ -123,49 +125,67 @@ class Screen(tk.Frame):
 
         frame.pack(side=tk.TOP)
 
+    def stop(self):
+        if self.player is not None:
+            self.player.player.stop()
+            self.player.parent.destroy()
+
+    def pause(self):
+        if self.player is not None:
+            self.player.player.pause()
+
+            if self.pause_button is not None:
+                if self.player.player.is_playing():
+                    # i know these are switched but it's the only way it works and i dont know why
+                    self.pause_button.config(text="Resume")
+                else:
+                    self.pause_button.config(text="Pause")
+
     def make_controls(self):
+
         controls = tk.Frame(self.parent)
 
-        previous_play = tk.Button(controls, text="Previous")
-        pause = tk.Button(controls, text="Pause")
-        play = tk.Button(controls, text="Play")
-        stop = tk.Button(controls, text="Stop")
-        next_play = tk.Button(controls, text="Next")
+        previous_play = tk.Button(controls, text="Previous", command=self.set_previous_item)
+        self.pause_button = tk.Button(controls, text="Pause", command=self.pause)
+        play = tk.Button(controls, text="Play", command=self.play_event)
+        stop = tk.Button(controls, text="Stop", command=self.stop)
+        next_play = tk.Button(controls, text="Next", command=self.set_next_item)
 
-        pady, ipadx, ipady = 2, 10, 1
-        previous_play.pack(side=tk.LEFT, padx=200, pady=pady, ipadx=ipadx, ipady=ipady)
-        pause.pack(side=tk.LEFT, padx=5, pady=pady, ipadx=ipadx, ipady=ipady)
+        pady, ipadx, ipady = 2, 2, 2
+        previous_play.pack(side=tk.LEFT, padx=5, pady=pady, ipadx=ipadx, ipady=ipady)
+        self.pause_button.pack(side=tk.LEFT, padx=5, pady=pady, ipadx=ipadx, ipady=ipady)
         play.pack(side=tk.LEFT, padx=5, pady=pady, ipadx=ipadx, ipady=ipady)
-        stop.pack(side=tk.LEFT, padx=50, pady=pady, ipadx=ipadx, ipady=ipady)
-        next_play.pack(side=tk.LEFT, padx=200, pady=pady, ipadx=ipadx, ipady=ipady)
+        stop.pack(side=tk.LEFT, padx=5, pady=pady, ipadx=ipadx, ipady=ipady)
+        next_play.pack(side=tk.LEFT, padx=5, pady=pady, ipadx=ipadx, ipady=ipady)
 
         controls.pack(side=tk.BOTTOM)
 
-    def play_next_item(self, event):
-        self.player.parent.destroy()
+    def make_description(self):
+        pass
 
-        self.summary_index += 1
+    def begin_summary(self, summary):
+        self.summary = summary
+        self.summary_index = 0
+
+    def play_event(self):
+        self.stop()
         summary_item = self.summary[self.summary_index]
 
         self.new_window = tk.Toplevel(self.parent)
         self.player = Player(self.new_window, self.video_file_name, summary_item.begin_time, summary_item.end_time)
 
-        self.player.events.event_attach(vlc.EventType.MediaPlayerEndReached, self.play_next_item)
+        self.player.events.event_attach(vlc.EventType.MediaPlayerEndReached, self.set_next_item)
         self.player.play()
 
-    def play_summary(self, summary):
-        self.summary = summary
-        self.summary_index = 0
-        summary_item = summary[self.summary_index]
+    def set_next_item(self, event=None):
+        self.player.parent.destroy()
+        self.summary_index += 1
+        self.play_event()
 
-        self.new_window = tk.Toplevel(self.parent)
-        self.player = Player(self.new_window, self.video_file_name, summary_item.begin_time, summary_item.end_time)
-
-        self.player.events.event_attach(vlc.EventType.MediaPlayerEndReached, self.play_next_item)
-        self.player.play()
-
-    # def play_summary_item(self, summary_item):
-
+    def set_previous_item(self):
+        self.player.parent.destroy()
+        self.summary_index -= 1
+        self.play_event()
 
 class Player:
     def __init__(self, parent, video_file_name, start_timestamp, end_timestamp):

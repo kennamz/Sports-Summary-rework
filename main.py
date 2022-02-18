@@ -68,7 +68,7 @@ if __name__ == '__main__':
 
     root = tk.Tk()
     player = Screen(root, 'raw_footage.mp4')
-    player.play_summary(summarizer.summary)
+    player.begin_summary(summarizer.summary)
 
     root.mainloop()  # to keep the GUI open
 
